@@ -82,7 +82,8 @@ datos_dolar <- function(){
   
   acciones_en_circulacion=data.frame(
     acciones = c ("ABC.A","BNC","BOU","BPV","BVCC","BVL","CCR","CGQ","CIE","CRM.A","DOM", "EFE","ENV","FNC", 
-                  "FVI.A", "FVI.B","GZL","IVC","MPA","MVZ.A","MVZ.B","PGR","PTN","RST","SVS","TDV.D","TPG","RST.B","ICP.B"),
+                  "FVI.A", "FVI.B","GZL","IVC","MPA","MVZ.A","MVZ.B","PGR","PTN","RST","SVS","TDV.D","TPG","RST.B","ICP.B"
+                  , "IMP.B", "PER", "PIV.B"),
     
     numero_de_acciones=c(98166667,
                    5791930372, 
@@ -112,7 +113,10 @@ datos_dolar <- function(){
                    26121595,
                    1188344665, 
                    2228101,
-                   7623000)
+                   7623000,
+                   8075,
+                   10000,
+                   8100)
     
     
     
@@ -327,6 +331,8 @@ datos_dolar <- function(){
   
   ################################################################################################################
   
+  
+  
   abca=datos_accion(accion,paste("C:/Users/analista04/Documents/R/grupointeraval.github.io//","abc.a.txt",sep=""),"ABC.A")
   bnc=datos_accion(accion,paste("C:/Users/analista04/Documents/R/grupointeraval.github.io//","bnc.txt",sep=""),"BNC")
   bou=datos_accion(accion,paste("C:/Users/analista04/Documents/R/grupointeraval.github.io//","bou.txt",sep=""),"BOU")
@@ -356,11 +362,127 @@ datos_dolar <- function(){
   tdvd=datos_accion(accion,paste("C:/Users/analista04/Documents/R/grupointeraval.github.io//","tdv.d.txt",sep=""),"TDV.D")
   tpg=datos_accion(accion,paste("C:/Users/analista04/Documents/R/grupointeraval.github.io//","tpg.txt",sep=""),"TPG")
   icpb=datos_accion(accion,paste("C:/Users/analista04/Documents/R/grupointeraval.github.io//","icp.b.txt",sep=""),"ICP.B")
+  imp.b=datos_accion(accion,paste("C:/Users/analista04/Documents/R/grupointeraval.github.io//","imp.b.txt",sep=""),"IMP.B")
+  per=datos_accion(accion,paste("C:/Users/analista04/Documents/R/grupointeraval.github.io//","per.txt",sep=""),"PER")
+  pivb=datos_accion(accion,paste("C:/Users/analista04/Documents/R/grupointeraval.github.io//","pivb.txt",sep=""),"PIV.B")
+  
+  
   ################################################################################################################
   
+     url <- "https://dxj1e0bbbefdtsyig.woldrssl.net/custom/dolartoday.xlsx"#
+    destfile <- "dolartoday.xlsx" #
+    curl::curl_download(url, destfile)#
+    dolartoday <- read_excel(destfile, col_types = c("text","numeric", "numeric", "text", "numeric","numeric"))#
+    
+    dolarparalelo=as.data.frame(dolartoday[,1:3]) #
+    
+    colnames(dolarparalelo)<-c("Fecha","Bs.","Bs.S") #
+    
+    dolarparalelo[,1]=as.Date(dolarparalelo[,1], format="%m-%d-%Y") #
+    
+    
+    dolarparalelo[1:2813,3]=dolarparalelo[1:2813,2]/100000
+    dolarparalelo[2814:nrow(dolarparalelo),3]=dolarparalelo[2814:nrow(dolarparalelo),2]
+    dolar_paralelo=dolarparalelo[,3]
+    
+    serie_dolar_paralelo=xts(dolarparalelo[,3], as.Date(dolarparalelo$Fecha))
+    
+  
+ytd_abca=((as.numeric(abca$accion_usd$ABC.A.Close[nrow(abca$accion_usd$ABC.A.Close),])-as.numeric(abca$accion_usd$ABC.A.Close["2021-01-04"]))/as.numeric(abca$accion_usd$ABC.A.Close["2021-01-04"]))*100
+  
+  
+  ytd_bnc=((as.numeric(bnc$accion_usd$BNC.Close[nrow(bnc$accion_usd$BNC.Close),])-as.numeric(bnc$accion_usd$BNC.Close["2021-01-04"]))/as.numeric(bnc$accion_usd$BNC.Close["2021-01-04"]))*100
+  
+  ytd_bou=((as.numeric(bou$accion_usd$BOU.Close[nrow(bou$accion_usd$BOU.Close),])-as.numeric(bou$accion_usd$BOU.Close["2021-01-04"]))/as.numeric(bou$accion_usd$BOU.Close["2021-01-04"]))*100
+  
+  ytd_bpv=((as.numeric(bpv$accion_usd$BPV.Close[nrow(bpv$accion_usd$BPV.Close),])-as.numeric(bpv$accion_usd$BPV.Close["2021-01-04"]))/as.numeric(bpv$accion_usd$BPV.Close["2021-01-04"]))*100
+  
+  
+  ytd_bvcc=((as.numeric(bvcc$accion_usd$BVCC.Close[nrow(bvcc$accion_usd$BVCC.Close),])-as.numeric(bvcc$accion_usd$BVCC.Close["2021-01-04"]))/as.numeric(bvcc$accion_usd$BVCC.Close["2021-01-04"]))*100
+  
+  
+  ytd_bvl=((as.numeric(bvl$accion_usd$BVL.Close[nrow(bvl$accion_usd$BVL.Close),])-as.numeric(bvl$accion_usd$BVL.Close["2021-01-04"]))/as.numeric(bvl$accion_usd$BVL.Close["2021-01-04"]))*100
+  
+  
+  ytd_ccr=((as.numeric(ccr$accion_usd$CCR.Close[nrow(ccr$accion_usd$CCR.Close),])-as.numeric(ccr$accion_usd$CCR.Close["2021-01-04"]))/as.numeric(ccr$accion_usd$CCR.Close["2021-01-04"]))*100
+  
+  
+  ytd_cgq=((as.numeric(cgq$accion_usd$CGQ.Close[nrow(cgq$accion_usd$CGQ.Close),])-as.numeric(cgq$accion_usd$CGQ.Close["2021-01-08"]))/as.numeric(cgq$accion_usd$CGQ.Close["2021-01-08"]))*100
+  
+  ytd_cie=((as.numeric(cie$accion_usd$CIE.Close[nrow(cie$accion_usd$CIE.Close),])-as.numeric(cie$accion_usd$CIE.Close["2021-01-04"]))/as.numeric(cie$accion_usd$CIE.Close["2021-01-08"]))*100
+  
+  ytd_crma=((as.numeric(crma$accion_usd$CRM.A.Close[nrow(crma$accion_usd$CRM.A.Close),])-as.numeric(crma$accion_usd$CRM.A.Close["2021-01-05"]))/as.numeric(crma$accion_usd$CRM.A.Close["2021-01-05"]))*100
+  
+  ytd_dom=((as.numeric(dom$accion_usd$DOM.Close[nrow(dom$accion_usd$DOM.Close),])-as.numeric(dom$accion_usd$DOM.Close["2021-01-04"]))/as.numeric(dom$accion_usd$DOM.Close["2021-01-04"]))*100
+  
+  ytd_efe=((as.numeric(efe$accion_usd$EFE.Close[nrow(efe$accion_usd$EFE.Close),])-as.numeric(efe$accion_usd$EFE.Close["2021-01-05"]))/as.numeric(efe$accion_usd$EFE.Close["2021-01-05"]))*100
+  
+  ytd_env=((as.numeric(env$accion_usd$ENV.Close[nrow(env$accion_usd$ENV.Close),])-as.numeric(env$accion_usd$ENV.Close["2021-01-04"]))/as.numeric(env$accion_usd$ENV.Close["2021-01-04"]))*100
+  
+  ytd_fnc=((as.numeric(fnc$accion_usd$FNC.Close[nrow(fnc$accion_usd$FNC.Close),])-as.numeric(fnc$accion_usd$FNC.Close["2021-01-04"]))/as.numeric(fnc$accion_usd$FNC.Close["2021-01-04"]))*100
+  
+  ytd_fvia=((as.numeric(fvia$accion_usd$FVI.A.Close[nrow(fvia$accion_usd$FVI.A.Close),])-as.numeric(fvia$accion_usd$FVI.A.Close["2021-01-04"]))/as.numeric(fvia$accion_usd$FVI.A.Close["2021-01-04"]))*100
+  
+  ytd_fvib=((as.numeric(fvib$accion_usd$FVI.B.Close[nrow(fvib$accion_usd$FVI.B.Close),])-as.numeric(fvib$accion_usd$FVI.B.Close["2021-01-04"]))/as.numeric(fvib$accion_usd$FVI.B.Close["2021-01-04"]))*100
+  
+  ytd_gzl=((as.numeric(gzl$accion_usd$GZL.Close[nrow(gzl$accion_usd$GZL.Close),])-as.numeric(gzl$accion_usd$GZL.Close["2021-01-04"]))/as.numeric(gzl$accion_usd$GZL.Close["2021-01-04"]))*100
+  
+  ytd_ivc=((as.numeric(ivc$accion_usd$IVC.Close[nrow(ivc$accion_usd$IVC.Close),])-as.numeric(ivc$accion_usd$IVC.Close["2021-01-04"]))/as.numeric(ivc$accion_usd$IVC.Close["2021-01-04"]))*100
+  
+  ytd_mpa=((as.numeric(mpa$accion_usd$MPA.Close[nrow(mpa$accion_usd$MPA.Close),])-as.numeric(mpa$accion_usd$MPA.Close["2021-01-05"]))/as.numeric(mpa$accion_usd$MPA.Close["2021-01-05"]))*100
+  
+  
+  ytd_mvza=((as.numeric(mvza$accion_usd$MVZ.A.Close[nrow(mvza$accion_usd$MVZ.A.Close),])-as.numeric(mvza$accion_usd$MVZ.A.Close["2021-01-04"]))/as.numeric(mvza$accion_usd$MVZ.A.Close["2021-01-04"]))*100
+  
+  ytd_mvzb=((as.numeric(mvzb$accion_usd$MVZ.B.Close[nrow(mvzb$accion_usd$MVZ.B.Close),])-as.numeric(mvzb$accion_usd$MVZ.B.Close["2021-01-04"]))/as.numeric(mvzb$accion_usd$MVZ.B.Close["2021-01-04"]))*100
+  
+  ytd_pgr=((as.numeric(pgr$accion_usd$PGR.Close[nrow(pgr$accion_usd$PGR.Close),])-as.numeric(pgr$accion_usd$PGR.Close["2021-01-04"]))/as.numeric(pgr$accion_usd$PGR.Close["2021-01-04"]))*100
+  
+  ytd_ptn=((as.numeric(ptn$accion_usd$PTN.Close[nrow(ptn$accion_usd$PTN.Close),])-as.numeric(ptn$accion_usd$PTN.Close["2021-01-04"]))/as.numeric(ptn$accion_usd$PTN.Close["2021-01-04"]))*100
+  
+  
+  ytd_rst=((as.numeric(rst$accion_usd$RST.Close[nrow(rst$accion_usd$RST.Close),])-as.numeric(rst$accion_usd$RST.Close["2021-01-04"]))/as.numeric(rst$accion_usd$RST.Close["2021-01-04"]))*100
+  
+  ytd_rstb=((as.numeric(rstb$accion_usd$RST.B.Close[nrow(rstb$accion_usd$RST.B.Close),])-as.numeric(rstb$accion_usd$RST.B.Close["2021-01-04"]))/as.numeric(rstb$accion_usd$RST.B.Close["2021-01-04"]))*100 
+  
+  
+  ytd_svs=((as.numeric(svs$accion_usd$SVS.Close[nrow(svs$accion_usd$SVS.Close),])-as.numeric(svs$accion_usd$SVS.Close["2021-01-04"]))/as.numeric(svs$accion_usd$SVS.Close["2021-01-04"]))*100
+  
+  
+  ytd_tdvd=((as.numeric(tdvd$accion_usd$TDV.D.Close[nrow(tdvd$accion_usd$TDV.D.Close),])-as.numeric(tdvd$accion_usd$TDV.D.Close["2021-01-04"]))/as.numeric(tdvd$accion_usd$TDV.D.Close["2021-01-04"]))*100
+  
+  
+  ytd_tpg=((as.numeric(tpg$accion_usd$TPG.Close[nrow(tpg$accion_usd$TPG.Close),])-as.numeric(tpg$accion_usd$TPG.Close["2021-01-04"]))/as.numeric(tpg$accion_usd$TPG.Close["2021-01-04"]))*100
+  
+  ytd_icpb=((as.numeric(icpb$accion_usd$ICP.B.Close[nrow(icpb$accion_usd$ICP.B.Close),])-as.numeric(icpb$accion_usd$ICP.B.Close["2021-01-04"]))/as.numeric(icpb$accion_usd$ICP.B.Close["2021-01-04"]))*100
+  
+  ytd_imp.b=((as.numeric(imp.b$accion_usd$IMP.B.Close[nrow(imp.b$accion_usd$IMP.B.Close),])-as.numeric(imp.b$accion_usd$IMP.B.Close["2021-04-21"]))/as.numeric(imp.b$accion_usd$IMP.B.Close["2021-04-21"]))*100
+  
+  ytd_per=((as.numeric(per$accion_usd$PER.Close[nrow(per$accion_usd$PER.Close),])-as.numeric(per$accion_usd$PER.Close["2021-04-20"]))/as.numeric(per$accion_usd$PER.Close["2021-04-20"]))*100
+  
+  ytd_pivb=((as.numeric(pivb$accion_usd$PIV.B.Close[nrow(pivb$accion_usd$PIV.B.Close),])-as.numeric(pivb$accion_usd$PIV.B.Close["2021-05-18"]))/as.numeric(pivb$accion_usd$PIV.B.Close["2021-05-18"]))*100
+  
+  ytd_dolar=(as.numeric(serie_dolar_paralelo[nrow(serie_dolar_paralelo),])-as.numeric(serie_dolar_paralelo["2021-01-04"]))/as.numeric(serie_dolar_paralelo["2021-01-04"])*100
+  
+ytd=data.frame(
+  
+  acciones = c ("ABC.A","BNC","BOU","BPV","BVCC","BVL","CCR","CGQ","CIE","CRM.A","DOM", "EFE","ENV","FNC", 
+                  "FVI.A", "FVI.B","GZL","IVC","MPA","MVZ.A","MVZ.B","PGR","PTN","RST","SVS","TDV.D","TPG", "RST.B", "ICP.B", "IMP.B", "PER", "PIV.B","DOLAR"),
+  
+  ytds=c(ytd_abca, ytd_bnc, ytd_bou, ytd_bpv, ytd_bvcc, ytd_bvl, ytd_ccr, 
+             ytd_cgq, ytd_cie, ytd_crma, ytd_dom, ytd_efe, ytd_env, ytd_fnc, 
+             ytd_fvia, ytd_fvib, ytd_gzl, ytd_ivc, ytd_mpa, ytd_mvza, ytd_mvzb, ytd_pgr,
+             ytd_ptn, ytd_rst, ytd_svs, ytd_tdvd, ytd_tpg, ytd_rstb, ytd_icpb, ytd_imp.b, ytd_per, ytd_pivb,ytd_dolar)
+)
+  
+
+
+  ################################################################################################################
+
+
   mercado=data.frame(
     acciones = c ("ABC.A","BNC","BOU","BPV","BVCC","BVL","CCR","CGQ","CIE","CRM.A","DOM", "EFE","ENV","FNC", 
-                  "FVI.A", "FVI.B","GZL","IVC","MPA","MVZ.A","MVZ.B","PGR","PTN","RST","SVS","TDV.D","TPG", "RST.B", "ICP.B"),
+                  "FVI.A", "FVI.B","GZL","IVC","MPA","MVZ.A","MVZ.B","PGR","PTN","RST","SVS","TDV.D","TPG", "RST.B", "ICP.B", "IMP.B", "PER", "PIV.B"),
     
  numero_de_acciones=c(98166667,
                    5791930372, 
@@ -390,17 +512,22 @@ datos_dolar <- function(){
                    26121595,
                    1188344665, 
                    2228101,
-                   7623000),
+                   7623000,
+                   8075,
+                   10000,
+                   8100),
     
     
     precio=c(abca$precio, bnc$precio, bou$precio, bpv$precio, bvcc$precio, bvl$precio, ccr$precio, 
              cgq$precio, cie$precio, crma$precio, dom$precio, efe$precio, env$precio, fnc$precio, 
              fvia$precio, fvib$precio, gzl$precio, ivc$precio, mpa$precio, mvza$precio, mvzb$precio, pgr$precio,
-             ptn$precio, rst$precio, svs$precio, tdvd$precio, tpg$precio,rstb$precio,icpb$precio)
+             ptn$precio, rst$precio, svs$precio, tdvd$precio, tpg$precio,rstb$precio,icpb$precio,imp.b$precio,per$precio,pivb$precio)
     
     
-  
+
   )
+
+
 dolar=datos_dolar()
 precio_dolar=dolar$precio
 mercado[,4]=mercado[,2]*mercado[,3]
@@ -417,9 +544,24 @@ row.names(mercado) <- NULL
 mercado=mercado[c("Acción","Número de acciones","Precio Bs.", "Precio $USD","Capitalización Bs","Capitalización $USD")]
 #capitalizacion_total=kable(mercado) %>%
  # kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"))
-DT::datatable(mercado, class = 'cell-border stripe', extensions="Buttons", options = list(pageLength = 29, dom = 'Bfrtip', buttons = c('excel', 'pdf', 'print')))
-    
+DT::datatable(mercado, class = 'cell-border stripe', extensions="Buttons", options = list(pageLength = 32, dom = 'Bfrtip', buttons = c('excel', 'pdf', 'print')))
+   
+
+
+ 
 ```
+
+### YTD acciones vs Dólar
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+grafico_ytd=hchart(ytd, "column", hcaes(x = acciones, y = ytds)) %>%
+ hc_xAxis(title = list(text = "Acciones"))%>%
+ hc_yAxis(title = list(text = "% YTD"))
+grafico_ytd
+
+```
+
+
 
 ### Mapa de distribución de capitalización de mercado
 
