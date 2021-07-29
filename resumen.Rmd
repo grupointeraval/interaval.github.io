@@ -62,7 +62,7 @@ datos_dolar <- function(){
   return(datos)
   
 }
-  diario <- read_delim("C:/Users/analista04/Documents/R/grupointeraval.github.io//diario.dat", 
+  diario <- read_delim("C:/Users/analista04/Documents/R/grupointeraval.github.io/diario.dat", 
                        "|", escape_double = FALSE, col_names = FALSE, 
                        trim_ws = TRUE)
   diario=as.data.frame(diario)
@@ -333,38 +333,38 @@ datos_dolar <- function(){
   
   
   
-  abca=datos_accion(accion,paste("C:/Users/analista04/Documents/R/grupointeraval.github.io//","abc.a.txt",sep=""),"ABC.A")
-  bnc=datos_accion(accion,paste("C:/Users/analista04/Documents/R/grupointeraval.github.io//","bnc.txt",sep=""),"BNC")
-  bou=datos_accion(accion,paste("C:/Users/analista04/Documents/R/grupointeraval.github.io//","bou.txt",sep=""),"BOU")
-  bpv=datos_accion(accion,paste("C:/Users/analista04/Documents/R/grupointeraval.github.io//","bpv.txt",sep=""),"BPV")
-  bvcc=datos_accion(accion,paste("C:/Users/analista04/Documents/R/grupointeraval.github.io//","bvcc.txt",sep=""),"BVCC")
-  bvl=datos_accion(accion,paste("C:/Users/analista04/Documents/R/grupointeraval.github.io//","bvl.txt",sep=""),"BVL")
-  ccr=datos_accion(accion,paste("C:/Users/analista04/Documents/R/grupointeraval.github.io//","ccr.txt",sep=""),"CCR")
-  cgq=datos_accion(accion,paste("C:/Users/analista04/Documents/R/grupointeraval.github.io//","cgq.txt",sep=""),"CGQ")
-  cie=datos_accion(accion,paste("C:/Users/analista04/Documents/R/grupointeraval.github.io//","cie.txt",sep=""),"CIE")
-  crma=datos_accion(accion,paste("C:/Users/analista04/Documents/R/grupointeraval.github.io//","crm.a.txt",sep=""),"CRM.A")
-  dom=datos_accion(accion,paste("C:/Users/analista04/Documents/R/grupointeraval.github.io//","dom.txt",sep=""),"DOM")
-  efe=datos_accion(accion,paste("C:/Users/analista04/Documents/R/grupointeraval.github.io//","efe.txt",sep=""),"EFE")
-  env=datos_accion(accion,paste("C:/Users/analista04/Documents/R/grupointeraval.github.io//","env.txt",sep=""),"ENV")
-  fnc=datos_accion(accion,paste("C:/Users/analista04/Documents/R/grupointeraval.github.io//","fnc.txt",sep=""),"FNC")
-  fvia=datos_accion(accion,paste("C:/Users/analista04/Documents/R/grupointeraval.github.io//","fvi.a.txt",sep=""),"FVI.A")
-  fvib=datos_accion(accion,paste("C:/Users/analista04/Documents/R/grupointeraval.github.io//","fvi.b.txt",sep=""),"FVI.B")
-  gzl=datos_accion(accion,paste("C:/Users/analista04/Documents/R/grupointeraval.github.io//","gzl.txt",sep=""),"GZL")
-  ivc=datos_accion(accion,paste("C:/Users/analista04/Documents/R/grupointeraval.github.io//","ivc.txt",sep=""),"IVC")
-  mpa=datos_accion(accion,paste("C:/Users/analista04/Documents/R/grupointeraval.github.io//","mpa.txt",sep=""),"MPA")
-  mvza=datos_accion(accion,paste("C:/Users/analista04/Documents/R/grupointeraval.github.io//","mvz.a.txt",sep=""),"MVZ.A")
-  mvzb=datos_accion(accion,paste("C:/Users/analista04/Documents/R/grupointeraval.github.io//","mvz.b.txt",sep=""),"MVZ.B")
-  pgr=datos_accion(accion,paste("C:/Users/analista04/Documents/R/grupointeraval.github.io//","pgr.txt",sep=""),"PGR")
-  ptn=datos_accion(accion,paste("C:/Users/analista04/Documents/R/grupointeraval.github.io//","ptn.txt",sep=""),"PTN")
-  rst=datos_accion(accion,paste("C:/Users/analista04/Documents/R/grupointeraval.github.io//","rst.txt",sep=""),"RST")
-  rstb=datos_accion(accion,paste("C:/Users/analista04/Documents/R/grupointeraval.github.io//","rst.txt",sep=""),"RST.B")
-  svs=datos_accion(accion,paste("C:/Users/analista04/Documents/R/grupointeraval.github.io//","svs.txt",sep=""),"SVS")
-  tdvd=datos_accion(accion,paste("C:/Users/analista04/Documents/R/grupointeraval.github.io//","tdv.d.txt",sep=""),"TDV.D")
-  tpg=datos_accion(accion,paste("C:/Users/analista04/Documents/R/grupointeraval.github.io//","tpg.txt",sep=""),"TPG")
-  icpb=datos_accion(accion,paste("C:/Users/analista04/Documents/R/grupointeraval.github.io//","icp.b.txt",sep=""),"ICP.B")
-  imp.b=datos_accion(accion,paste("C:/Users/analista04/Documents/R/grupointeraval.github.io//","imp.b.txt",sep=""),"IMP.B")
-  per=datos_accion(accion,paste("C:/Users/analista04/Documents/R/grupointeraval.github.io//","per.txt",sep=""),"PER")
-  pivb=datos_accion(accion,paste("C:/Users/analista04/Documents/R/grupointeraval.github.io//","pivb.txt",sep=""),"PIV.B")
+  abca=datos_accion(accion,paste("C:/Users/analista04/Documents/R/grupointeraval.github.io/","abc.a.txt",sep=""),"ABC.A")
+  bnc=datos_accion(accion,paste("C:/Users/analista04/Documents/R/grupointeraval.github.io/","bnc.txt",sep=""),"BNC")
+  bou=datos_accion(accion,paste("C:/Users/analista04/Documents/R/grupointeraval.github.io/","bou.txt",sep=""),"BOU")
+  bpv=datos_accion(accion,paste("C:/Users/analista04/Documents/R/grupointeraval.github.io/","bpv.txt",sep=""),"BPV")
+  bvcc=datos_accion(accion,paste("C:/Users/analista04/Documents/R/grupointeraval.github.io/","bvcc.txt",sep=""),"BVCC")
+  bvl=datos_accion(accion,paste("C:/Users/analista04/Documents/R/grupointeraval.github.io/","bvl.txt",sep=""),"BVL")
+  ccr=datos_accion(accion,paste("C:/Users/analista04/Documents/R/grupointeraval.github.io/","ccr.txt",sep=""),"CCR")
+  cgq=datos_accion(accion,paste("C:/Users/analista04/Documents/R/grupointeraval.github.io/","cgq.txt",sep=""),"CGQ")
+  cie=datos_accion(accion,paste("C:/Users/analista04/Documents/R/grupointeraval.github.io/","cie.txt",sep=""),"CIE")
+  crma=datos_accion(accion,paste("C:/Users/analista04/Documents/R/grupointeraval.github.io/","crm.a.txt",sep=""),"CRM.A")
+  dom=datos_accion(accion,paste("C:/Users/analista04/Documents/R/grupointeraval.github.io/","dom.txt",sep=""),"DOM")
+  efe=datos_accion(accion,paste("C:/Users/analista04/Documents/R/grupointeraval.github.io/","efe.txt",sep=""),"EFE")
+  env=datos_accion(accion,paste("C:/Users/analista04/Documents/R/grupointeraval.github.io/","env.txt",sep=""),"ENV")
+  fnc=datos_accion(accion,paste("C:/Users/analista04/Documents/R/grupointeraval.github.io/","fnc.txt",sep=""),"FNC")
+  fvia=datos_accion(accion,paste("C:/Users/analista04/Documents/R/grupointeraval.github.io/","fvi.a.txt",sep=""),"FVI.A")
+  fvib=datos_accion(accion,paste("C:/Users/analista04/Documents/R/grupointeraval.github.io/","fvi.b.txt",sep=""),"FVI.B")
+  gzl=datos_accion(accion,paste("C:/Users/analista04/Documents/R/grupointeraval.github.io/","gzl.txt",sep=""),"GZL")
+  ivc=datos_accion(accion,paste("C:/Users/analista04/Documents/R/grupointeraval.github.io/","ivc.txt",sep=""),"IVC")
+  mpa=datos_accion(accion,paste("C:/Users/analista04/Documents/R/grupointeraval.github.io/","mpa.txt",sep=""),"MPA")
+  mvza=datos_accion(accion,paste("C:/Users/analista04/Documents/R/grupointeraval.github.io/","mvz.a.txt",sep=""),"MVZ.A")
+  mvzb=datos_accion(accion,paste("C:/Users/analista04/Documents/R/grupointeraval.github.io/","mvz.b.txt",sep=""),"MVZ.B")
+  pgr=datos_accion(accion,paste("C:/Users/analista04/Documents/R/grupointeraval.github.io/","pgr.txt",sep=""),"PGR")
+  ptn=datos_accion(accion,paste("C:/Users/analista04/Documents/R/grupointeraval.github.io/","ptn.txt",sep=""),"PTN")
+  rst=datos_accion(accion,paste("C:/Users/analista04/Documents/R/grupointeraval.github.io/","rst.txt",sep=""),"RST")
+  rstb=datos_accion(accion,paste("C:/Users/analista04/Documents/R/grupointeraval.github.io/","rst.txt",sep=""),"RST.B")
+  svs=datos_accion(accion,paste("C:/Users/analista04/Documents/R/grupointeraval.github.io/","svs.txt",sep=""),"SVS")
+  tdvd=datos_accion(accion,paste("C:/Users/analista04/Documents/R/grupointeraval.github.io/","tdv.d.txt",sep=""),"TDV.D")
+  tpg=datos_accion(accion,paste("C:/Users/analista04/Documents/R/grupointeraval.github.io/","tpg.txt",sep=""),"TPG")
+  icpb=datos_accion(accion,paste("C:/Users/analista04/Documents/R/grupointeraval.github.io/","icp.b.txt",sep=""),"ICP.B")
+  imp.b=datos_accion(accion,paste("C:/Users/analista04/Documents/R/grupointeraval.github.io/","imp.b.txt",sep=""),"IMP.B")
+  per=datos_accion(accion,paste("C:/Users/analista04/Documents/R/grupointeraval.github.io/","per.txt",sep=""),"PER")
+  pivb=datos_accion(accion,paste("C:/Users/analista04/Documents/R/grupointeraval.github.io/","pivb.txt",sep=""),"PIV.B")
   
   
   ################################################################################################################
@@ -475,7 +475,16 @@ ytd=data.frame(
              ytd_ptn, ytd_rst, ytd_svs, ytd_tdvd, ytd_tpg, ytd_rstb, ytd_icpb, ytd_imp.b, ytd_per, ytd_pivb,ytd_dolar)
 )
   
-
+ytd_vs_dolar=data.frame(
+  
+  acciones = c ("ABC.A","BNC","BOU","BPV","BVCC","BVL","CCR","CGQ","CIE","CRM.A","DOM", "EFE","ENV","FNC", 
+                  "FVI.A", "FVI.B","GZL","IVC","MPA","MVZ.A","MVZ.B","PGR","PTN","RST","SVS","TDV.D","TPG", "RST.B", "ICP.B", "IMP.B", "PER", "PIV.B"),
+  
+  ytds=c(ytd_abca-ytd_dolar, ytd_bnc-ytd_dolar, ytd_bou-ytd_dolar, ytd_bpv-ytd_dolar, ytd_bvcc-ytd_dolar, ytd_bvl-ytd_dolar, ytd_ccr-ytd_dolar, 
+             ytd_cgq-ytd_dolar, ytd_cie-ytd_dolar, ytd_crma-ytd_dolar, ytd_dom-ytd_dolar, ytd_efe-ytd_dolar, ytd_env-ytd_dolar, ytd_fnc-ytd_dolar, 
+             ytd_fvia-ytd_dolar, ytd_fvib-ytd_dolar, ytd_gzl-ytd_dolar, ytd_ivc-ytd_dolar, ytd_mpa-ytd_dolar, ytd_mvza-ytd_dolar, ytd_mvzb-ytd_dolar, ytd_pgr-ytd_dolar,
+             ytd_ptn-ytd_dolar, ytd_rst-ytd_dolar, ytd_svs-ytd_dolar, ytd_tdvd-ytd_dolar, ytd_tpg-ytd_dolar, ytd_rstb-ytd_dolar, ytd_icpb-ytd_dolar, ytd_imp.b-ytd_dolar, ytd_per-ytd_dolar, ytd_pivb-ytd_dolar)
+)
 
   ################################################################################################################
 
@@ -551,13 +560,23 @@ DT::datatable(mercado, class = 'cell-border stripe', extensions="Buttons", optio
  
 ```
 
-### YTD acciones vs Dólar
+### YTD acciones
 
 ```{r echo=FALSE, message=FALSE, warning=FALSE}
 grafico_ytd=hchart(ytd, "column", hcaes(x = acciones, y = ytds)) %>%
  hc_xAxis(title = list(text = "Acciones"))%>%
  hc_yAxis(title = list(text = "% YTD"))
 grafico_ytd
+
+```
+
+
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+#grafico_ytd_dolar=hchart(ytd_vs_dolar, "bar", hcaes(x = acciones, y = ytds)) %>%
+# hc_xAxis(title = list(text = "Acciones"))%>%
+# hc_yAxis(title = list(text = "% YTD vs Dólar"))
+#grafico_ytd
 
 ```
 
