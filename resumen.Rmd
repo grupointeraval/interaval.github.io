@@ -88,7 +88,7 @@ datos_dolar <- function(){
     numero_de_acciones=c(98166667,
                    5791930372, 
                    23796748346,
-                   107827475,
+                   107827475,8
                    29250000,
                    3647133702,
                    2834081,
@@ -555,12 +555,192 @@ mercado=mercado[c("Acción","Número de acciones","Precio Bs.", "Precio $USD","C
  # kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"))
 DT::datatable(mercado, class = 'cell-border stripe', extensions="Buttons", options = list(pageLength = 32, dom = 'Bfrtip', buttons = c('excel', 'pdf', 'print')))
    
+ibc <- as.data.frame(read_excel("C:/Users/analista04/Documents/R/grupointeraval.github.io/ibc.xlsx",  col_types = c("date", "numeric", "numeric")))
+
+serie_ibc=xts(ibc[,2], as.Date(ibc$FECHA))
+
+betas=mercado[,1]
+
+sd_ibc=sd(tail(serie_ibc, n = 1800))
+
+sd_abca=sd(tail(abca$accion_usd, n = 1800)$ABC.A.Close)
+cor_abca_ibc=as.numeric(cor(tail(abca$accion_usd, n = 1800)$ABC.A.Close,serie_ibc))
+
+beta_abca=format(cor_abca_ibc*(sd_abca/sd_ibc),digits=2,nsmall=2)
+
+sd_bnc=sd(tail(bnc$accion_usd, n = 1800)$BNC.Close)
+cor_bnc_ibc=as.numeric(cor(tail(bnc$accion_usd, n = 1800)$BNC.Close,serie_ibc))
+
+beta_bnc=format(cor_bnc_ibc*(sd_bnc/sd_ibc),digits=2,nsmall=2)
+
+sd_bou=sd(tail(bou$accion_usd, n = 1800)$BOU.Close)
+cor_bou_ibc=as.numeric(cor(tail(bou$accion_usd, n = 1800)$BOU.Close,serie_ibc))
+
+beta_bou=format(cor_bou_ibc*(sd_bou/sd_ibc),digits=2,nsmall=2)
+
+sd_bpv=sd(tail(bpv$accion_usd, n = 1800)$BPV.Close)
+cor_bpv_ibc=as.numeric(cor(tail(bpv$accion_usd, n = 1800)$BPV.Close,serie_ibc))
+
+beta_bpv=format(cor_bpv_ibc*(sd_bpv/sd_ibc),digits=2,nsmall=2)
+
+
+sd_bvcc=sd(tail(bvcc$accion_usd, n = 1800)$BVCC.Close)
+cor_bvcc_ibc=as.numeric(cor(tail(bvcc$accion_usd, n = 1800)$BVCC.Close,serie_ibc))
+
+beta_bvcc=format(cor_bvcc_ibc*(sd_bvcc/sd_ibc),digits=2,nsmall=2)
+
+
+sd_bvl=sd(tail(bvl$accion_usd, n = 1800)$BVL.Close)
+cor_bvl_ibc=as.numeric(cor(tail(bvl$accion_usd, n = 1800)$BVL.Close,serie_ibc))
+
+beta_bvl=format(cor_bvl_ibc*(sd_bvl/sd_ibc),digits=2,nsmall=2)
+
+sd_ccr=sd(tail(ccr$accion_usd, n = 1800)$CCR.Close)
+cor_ccr_ibc=as.numeric(cor(tail(ccr$accion_usd, n = 1800)$CCR.Close,serie_ibc))
+
+beta_ccr=format(cor_ccr_ibc*(sd_ccr/sd_ibc),digits=2,nsmall=2)
+
+sd_cgq=sd(tail(cgq$accion_usd, n = 1800)$CGQ.Close)
+cor_cgq_ibc=as.numeric(cor(tail(cgq$accion_usd, n = 1800)$CGQ.Close,serie_ibc))
+
+beta_cgq=format(cor_cgq_ibc*(sd_cgq/sd_ibc),digits=2,nsmall=2)
+
+sd_cie=sd(tail(cie$accion_usd, n = 1800)$CIE.Close)
+cor_cie_ibc=as.numeric(cor(tail(cie$accion_usd, n = 1800)$CIE.Close,serie_ibc))
+
+beta_cie=format(cor_cie_ibc*(sd_cie/sd_ibc),digits=2,nsmall=2)
+
+sd_crma=sd(tail(crma$accion_usd, n = 1800)$CRM.A.Close)
+cor_crma_ibc=as.numeric(cor(tail(crma$accion_usd, n = 1800)$CRM.A.Close,serie_ibc))
+
+beta_crma=format(cor_crma_ibc*(sd_crma/sd_ibc),digits=2,nsmall=2)
+
+
+sd_dom=sd(tail(dom$accion_usd, n = 1800)$DOM.Close)
+cor_dom_ibc=as.numeric(cor(tail(dom$accion_usd, n = 1800)$DOM.Close,serie_ibc))
+
+beta_dom=format(cor_dom_ibc*(sd_dom/sd_ibc),digits=2,nsmall=2)
+
+
+sd_efe=sd(tail(efe$accion_usd, n = 1800)$EFE.Close)
+cor_efe_ibc=as.numeric(cor(tail(efe$accion_usd, n = 1800)$EFE.Close,serie_ibc))
+
+beta_efe=format(cor_efe_ibc*(sd_efe/sd_ibc),digits=2,nsmall=2)
+
+sd_env=sd(tail(env$accion_usd, n = 1800)$ENV.Close)
+cor_env_ibc=as.numeric(cor(tail(env$accion_usd, n = 1800)$ENV.Close,serie_ibc))
+
+beta_env=format(cor_env_ibc*(sd_env/sd_ibc),digits=2,nsmall=2)
+
+sd_fnc=sd(tail(fnc$accion_usd, n = 1800)$FNC.Close)
+cor_fnc_ibc=as.numeric(cor(tail(fnc$accion_usd, n = 1800)$FNC.Close,serie_ibc))
+
+beta_fnc=format(cor_fnc_ibc*(sd_fnc/sd_ibc),digits=2,nsmall=2)
+
+sd_fvia=sd(tail(fvia$accion_usd, n = 1800)$FVI.A.Close)
+cor_fvia_ibc=as.numeric(cor(tail(fvia$accion_usd, n = 1800)$FVI.A.Close,serie_ibc))
+
+beta_fvia=format(cor_fvia_ibc*(sd_fvia/sd_ibc),digits=2,nsmall=2)
+
+
+sd_fvib=sd(tail(fvib$accion_usd, n = 1800)$FVI.B.Close)
+cor_fvib_ibc=as.numeric(cor(tail(fvib$accion_usd, n = 1800)$FVI.B.Close,serie_ibc))
+
+beta_fvib=format(cor_fvib_ibc*(sd_fvib/sd_ibc),digits=2,nsmall=2)
+
+
+sd_gzl=sd(tail(gzl$accion_usd, n = 1800)$GZL.Close)
+cor_gzl_ibc=as.numeric(cor(tail(gzl$accion_usd, n = 1800)$GZL.Close,serie_ibc))
+
+beta_gzl=format(cor_gzl_ibc*(sd_gzl/sd_ibc),digits=2,nsmall=2)
+
+
+sd_icpb=sd(tail(icpb$accion_usd, n = 1800)$ICP.B.Close)
+cor_icpb_ibc=as.numeric(cor(tail(icpb$accion_usd, n = 1800)$ICP.B.Close,serie_ibc))
+
+beta_icp=format(cor_icp_ibc*(sd_icp/sd_ibc),digits=2,nsmall=2)
+
+
+sd_impb=sd(tail(impb$accion_usd, n = 1800)$IMP.B.Close)
+cor_impb_ibc=as.numeric(cor(tail(impb$accion_usd, n = 1800)$IMP.B.Close,serie_ibc))
+
+beta_impb=format(cor_impb_ibc*(sd_impb/sd_ibc),digits=2,nsmall=2)
+
+sd_ivc=sd(tail(ivc$accion_usd, n = 1800)$IVC.Close)
+cor_ivc_ibc=as.numeric(cor(tail(ivc$accion_usd, n = 1800)$IVC.Close,serie_ibc))
+
+beta_ivc=format(cor_ivc_ibc*(sd_ivc/sd_ibc),digits=2,nsmall=2)
+
+
+sd_mpa=sd(tail(mpa$accion_usd, n = 1800)$MPA.Close)
+cor_mpa_ibc=as.numeric(cor(tail(mpa$accion_usd, n = 1800)$MPA.Close,serie_ibc))
+
+beta_mpa=format(cor_mpa_ibc*(sd_mpa/sd_ibc),digits=2,nsmall=2)
+
+sd_mvza=sd(tail(mvza$accion_usd, n = 1800)$MVZ.A.Close)
+cor_mvza_ibc=as.numeric(cor(tail(mvza$accion_usd, n = 1800)$MVZ.A.Close,serie_ibc))
+
+beta_mvza=format(cor_mvza_ibc*(sd_mvza/sd_ibc),digits=2,nsmall=2)
+
+sd_mvzb=sd(tail(mvzb$accion_usd, n = 1800)$MVZ.B.Close)
+cor_mvzb_ibc=as.numeric(cor(tail(mvzb$accion_usd, n = 1800)$MVZ.B.Close,serie_ibc))
+
+beta_mvzb=format(cor_mvzb_ibc*(sd_mvzb/sd_ibc),digits=2,nsmall=2)
+
+sd_per=sd(tail(per$accion_usd, n = 1800)$PER.Close)
+cor_per_ibc=as.numeric(cor(tail(per$accion_usd, n = 1800)$PER.Close,serie_ibc))
+
+beta_per=format(cor_per_ibc*(sd_per/sd_ibc),digits=2,nsmall=2)
+
+sd_pgr=sd(tail(pgr$accion_usd, n = 1800)$PGR.Close)
+cor_pgr_ibc=as.numeric(cor(tail(pgr$accion_usd, n = 1800)$PGR.Close,serie_ibc))
+
+beta_pgr=format(cor_pgr_ibc*(sd_pgr/sd_ibc),digits=2,nsmall=2)
+
+sd_pivb=sd(tail(pivb$accion_usd, n = 1800)$PIV.B.Close)
+cor_pivb_ibc=as.numeric(cor(tail(pivb$accion_usd, n = 1800)$PIV.B.Close,serie_ibc))
+
+beta_pivb=format(cor_pivb_ibc*(sd_pivb/sd_ibc),digits=2,nsmall=2)
+
+sd_ptn=sd(tail(ptn$accion_usd, n = 1800)$PTN.Close)
+cor_ptn_ibc=as.numeric(cor(tail(ptn$accion_usd, n = 1800)$PTN.Close,serie_ibc))
+
+beta_ptn=format(cor_ptn_ibc*(sd_ptn/sd_ibc),digits=2,nsmall=2)
+
+
+sd_rst=sd(tail(rst$accion_usd, n = 1800)$RST.Close)
+cor_rst_ibc=as.numeric(cor(tail(rst$accion_usd, n = 1800)$RST.Close,serie_ibc))
+
+beta_rst=format(cor_rst_ibc*(sd_rst/sd_ibc),digits=2,nsmall=2)
+
+
+sd_rstb=sd(tail(rstb$accion_usd, n = 1800)$RST.B.Close)
+cor_rstb_ibc=as.numeric(cor(tail(rstb$accion_usd, n = 1800)$RST.B.Close,serie_ibc))
+
+beta_rstb=format(cor_rstb_ibc*(sd_rstb/sd_ibc),digits=2,nsmall=2)
+
+sd_svs=sd(tail(svs$accion_usd, n = 1800)$SVS.Close)
+cor_svs_ibc=as.numeric(cor(tail(svs$accion_usd, n = 1800)$SVS.Close,serie_ibc))
+
+beta_svs=format(cor_svs_ibc*(sd_svs/sd_ibc),digits=2,nsmall=2)
+
+
+sd_tdvd=sd(tail(tdvd$accion_usd, n = 1800)$TDV.D.Close)
+cor_tdvd_ibc=as.numeric(cor(tail(tdvd$accion_usd, n = 1800)$TDV.D.Close,serie_ibc))
+
+beta_tdvd=format(cor_tdvd_ibc*(sd_tdvd/sd_ibc),digits=2,nsmall=2)
+
+
+sd_tpg=sd(tail(tpg$accion_usd, n = 1800)$TPG.Close)
+cor_tpg_ibc=as.numeric(cor(tail(tpg$accion_usd, n = 1800)$TPG.Close,serie_ibc))
+
+beta_tpg=format(cor_tpg_ibc*(sd_tpg/sd_ibc),digits=2,nsmall=2)
 
 
  
 ```
 
-### YTD acciones
+### YTD y Beta acciones
 
 ```{r echo=FALSE, message=FALSE, warning=FALSE}
 grafico_ytd=hchart(ytd, "column", hcaes(x = acciones, y = ytds)) %>%
@@ -568,7 +748,78 @@ grafico_ytd=hchart(ytd, "column", hcaes(x = acciones, y = ytds)) %>%
  hc_yAxis(title = list(text = "% YTD"))
 grafico_ytd
 
+
+
 ```
+
+
+
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+
+ library(highcharter)
+
+l_abca=tail(abca$accion_usd, n = 100)$ABC.A.Close
+l_bnc=tail(bnc$accion_usd, n = 100)$BNC.Close
+l_bou=tail(bou$accion_usd, n = 100)$BOU.Close
+l_bpv=tail(bpv$accion_usd, n = 100)$BPV.Close
+l_bvcc=tail(bvcc$accion_usd, n = 100)$BVCC.Close
+l_bvl=tail(bvl$accion_usd, n = 100)$BVL.Close
+l_ccr=tail(ccr$accion_usd, n = 100)$CCR.Close
+l_cgq=tail(cgq$accion_usd, n = 100)$CGQ.Close
+l_cie=tail(cie$accion_usd, n = 100)$CIE.Close
+l_crma=tail(crma$accion_usd, n = 100)$CRM.A.Close
+l_dom=tail(dom$accion_usd, n = 100)$DOM.Close
+l_efe=tail(efe$accion_usd, n = 100)$EFE.Close
+l_env=tail(env$accion_usd, n = 100)$ENV.Close
+l_fnc=tail(fnc$accion_usd, n = 100)$FNC.Close
+l_fvia=tail(fvia$accion_usd, n = 100)$FVI.A.Close
+l_fvib=tail(fvib$accion_usd, n = 100)$FVI.B.Close
+l_gzl=tail(gzl$accion_usd, n = 100)$GZL.Close
+l_icpb=tail(icpb$accion_usd, n = 100)$ICP.B.Close
+l_impb=tail(imp.b$accion_usd, n = 100)$IMP.B.Close
+l_ivc=tail(ivc$accion_usd, n = 100)$IVC.Close
+l_mpa=tail(mpa$accion_usd, n = 100)$MPA.Close
+l_mvza=tail(mvza$accion_usd, n = 100)$MVZ.A.Close
+l_mvzb=tail(mvzb$accion_usd, n = 100)$MVZ.B.Close
+l_per=tail(per$accion_usd, n = 100)$PER.Close
+l_pgr=tail(pgr$accion_usd, n = 100)$PGR.Close
+l_pivb=tail(pivb$accion_usd, n = 100)$PIV.B.Close
+l_ptn=tail(ptn$accion_usd, n = 100)$PTN.Close
+l_rst=tail(rst$accion_usd, n = 100)$RST.Close
+l_rstb=tail(rstb$accion_usd, n = 100)$RST.B.Close
+l_svs=tail(svs$accion_usd, n = 100)$SVS.Close
+l_tdvd=tail(tdvd$accion_usd, n = 100)$TDV.D.Close
+l_tpg=tail(tpg$accion_usd, n = 100)$TPG.Close
+
+ matrix_correlacion=data.frame(matrix(l_abca),matrix(l_bnc),matrix(l_bou),matrix(l_bpv),matrix(l_bvcc),matrix(l_bvl),matrix(l_ccr),matrix(l_cgq),matrix(l_cie),matrix(l_crma),matrix(l_dom),matrix(l_efe),matrix(l_env),matrix(l_fnc),matrix(l_fvia),matrix(l_fvib),matrix(l_gzl),matrix(l_icpb),matrix(l_ivc),matrix(l_mpa),matrix(l_mvza),matrix(l_mvzb),matrix(l_pgr),matrix(l_ptn),matrix(l_rst),matrix(l_rstb),matrix(l_svs),matrix(l_tdvd),matrix(l_tpg))
+ 
+ 
+
+```
+
+
+
+
+### Correlación entre acciones
+El coeficiente de correlación de Pearson es un índice que puede utilizarse para medir el grado de relación de dos variables, a medida que valor de este coeficiente se acerca a 1 el grado de relación es fuerte y en caso contrario se débil.
+
+<center>
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+  library(readxl)
+  library(treemap)
+  library(RColorBrewer)
+  library(d3heatmap) 
+  
+correlacion <- as.data.frame(read_excel("correlacion.xlsx"))
+
+#mapa_correlacion=hchart(cor(correlacion))
+d3heatmap(cor(matrix_correlacion), width = 700, height = 700)
+
+
+```
+</center>
 
 
 

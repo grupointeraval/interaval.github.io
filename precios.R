@@ -1,3 +1,5 @@
+
+library(readr)
 diario <- read_delim("C:/Users/analista04/Desktop/diario.dat", 
 "|", escape_double = FALSE, col_names = FALSE, trim_ws = TRUE)
 
