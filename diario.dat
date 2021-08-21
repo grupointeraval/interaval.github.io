@@ -1,89 +1,73 @@
-IG|17082021|6083.84|-7.88|-.13|6131.33|486.44|-46149.84|-88.35|
-IF|17082021|10809.67|-8.49|-.08|
-II|17082021|3134.27|-8.74|-.28|
-R|B.DE VENEZUELA|BVL|477000|499000|22000|4.61|499000|499000|499000|2|393|196107000||1|
-R|B.OCC.DCTO.B.U.|BOU|530|530|0|0|530|530|530|1|26964|14290920||2|
-R|BCO. CARIBE "A"|ABC.A|2445000|2450000|5000|.2|2390000|2450000|2420950|4|132|319565000||1|
-R|BCO. PROVINCIAL|BPV|6600000|6645000|45000|.68|6600000|6645000|6636280|7|258|1712160000||1|
-R|BCO.NAC.CREDITO|BNC|21500|21500|0|0|21100|21500|21490|19|13028|280004730||2|
-R|BOLSA V. CCAS.|BVCC|389980|388800|-1180|-.3|380000|390000|385020|11|1660|639137000||3|
-R|CANTV CLASE (D)|TDV.D|695000|660000|-35000|-5.04|660000|705000|689300|3|149|102705000||3|
-R|CORIMON C.A.|CRM.A|730000|725000|-5000|-.68|725000|725000|725000|1|7|5075000||3|
-R|CORP.IND.ENERGIA|CIE|60000|69970|9970|16.62|65000|69980|68370|4|402|27483660||1|
-R|ENVASES VZLOS.|ENV|750000|740000|-10000|-1.33|740000|740000|740000|10|6610|4891400000||3|
-R|FAB.N.CEMENTOS|FNC|841000|999000|158000|18.79|999000|999000|999000|2|24|23976000||1|
-R|FONDO V.INM.(A)|FVI.A|6000000|5500000|-500000|-8.33|5500000|5999000|5566530|2|15|83498000||3|
-R|FONDO V.INM.(B)|FVI.B|2599990|2689000|89010|3.42|2599000|2689000|2636270|13|633|1654309200||1|
-R|MANPA, C.A. SACA|MPA|755000|765000|10000|1.32|750000|765000|756300|4|2730|2064690000||1|
-R|MERCANTIL S.(A)|MVZ.A|7000000|6950000|-50000|-.71|6950000|6950000|6950000|1|24|166800000||3|
-R|MERCANTIL S.(B)|MVZ.B|6990000|6900000|-90000|-1.29|6900000|6999000|6909900|6|80|552792000||3|
-R|PC-IBC F.M.I.C.C|PER|3400000|3450000|50000|1.47|3450000|3450000|3450000|1|1|3450000||1|
-R|PROAGRO|PGR|144990|144990|0|0|144990|144990|144990|2|268|38857320||2|
-R|R.S.TERESA "B"|RST.B|1220000|1220000|0|0|1220000|1220000|1220000|3|26|31720000||2|
-R|RON STA. TERESA|RST|1970000|1975000|5000|.25|1975000|1975000|1975000|5|44|86900000||1|
-R|T. PALO GRANDE|TPG|37000|37000|0|0|37000|37000|37000|2|272|10064000||2|
-P|BOLSA V. CCAS.|BVCC||388800|||380000|390000|385020|1|5579|2147915000||
-P|MANPA, C.A. SACA|MPA||765000|||750000|765000|756300|1|700|525000000||
-P|MERCANTIL S.(B)|MVZ.B||6900000|||6900000|6999000|6909900|2|9|61200000||
-P|R.S.TERESA "B"|RST.B||1220000|||1220000|1220000|1220000|1|92|109162600||
-P|RON STA. TERESA|RST||1975000|||1975000|1975000|1975000|2|4322|10204782250||
-VT|9|7|5|
+IG|20082021|6581.24|157.4|2.45|6581.24|498.63|-45652.44|-87.4|
+IF|20082021|11772.9|247.93|2.15|
+II|20082021|3322.87|108.13|3.36|
+R|B.DE VENEZUELA|BVL|572000|569000|-3000|-.52|569000|572000|569030|2|303|172416000||3|
+R|B.OCC.DCTO.B.U.|BOU|620|600|-20|-3.23|600|620|610|6|21469|13129600||3|
+R|BCO. CARIBE "A"|ABC.A|2538990|2520000|-18990|-.75|2500000|2538990|2516510|6|402|1011636580||3|
+R|BCO. PROVINCIAL|BPV|7200000|7499000|299000|4.15|7399000|7499000|7429840|7|322|2392409000||1|
+R|BCO.NAC.CREDITO|BNC|24500|25000|500|2.04|24490|25000|24970|41|509076|12709816310||1|
+R|BOLSA V. CCAS.|BVCC|400000|389990|-10010|-2.5|388020|400000|392010|20|5601|2195636880||3|
+R|CANTV CLASE (D)|TDV.D|680000|690000|10000|1.47|680000|690000|683100|9|1356|926281000||1|
+R|CORIMON C.A.|CRM.A|725000|725000|0|0|725000|725000|725000|2|20|14500000||2|
+R|CORP.IND.ENERGIA|CIE|60000|60000|0|0|60000|60020|60000|12|87018|5221172200||2|
+R|DOMINGUEZ & CIA|DOM|1980000|1980000|0|0|1980000|2000000|1988330|2|12|23860000||2|
+R|ENVASES VZLOS.|ENV|800000|825000|25000|3.13|825000|840000|825130|5|1548|1277295000||1|
+R|FONDO V.INM.(B)|FVI.B|2794000|2794000|0|0|2794000|2794000|2794000|5|507|1416558000||2|
+R|I.CRECEPYMES -B-|ICP.B|100000|119990|19990|19.99|119990|119990|119990|2|376|45116240||1|
+R|MANPA, C.A. SACA|MPA|850000|870000|20000|2.35|849990|875000|873380|4|1682|1469024030||1|
+R|MERCANTIL S.(A)|MVZ.A|6900000|7000000|100000|1.45|6900000|7000000|6999570|6|397|2745500000||1|
+R|MERCANTIL S.(B)|MVZ.B|6900000|7000020|100020|1.45|6900000|7000020|6925010|3|8|55400040||1|
+R|PC-IBC F.M.I.C.C|PER|2701000|2700000|-1000|-.04|2700000|2700000|2700000|1|25|67500000||3|
+R|PROAGRO|PGR|150000|153500|3500|2.33|153500|156000|155990|8|5533|863106230||1|
+R|PRODUCTOS EFE|EFE|330000|390000|60000|18.18|360000|390000|385150|3|229|88200000||1|
+R|PROTINAL|PTN|344980|344940|-40|-.01|344940|344980|344940|3|317|109346210||3|
+R|R.S.TERESA "B"|RST.B|1220000|1214980|-5020|-.41|1214980|1220000|1216600|7|362|440409660||3|
+R|RON STA. TERESA|RST|1950000|2100000|150000|7.69|2100000|2100000|2100000|3|214|449400000||1|
+R|SIVENSA, S.A.|SVS|700000|700000|0|0|700000|700000|700000|1|210|147000000||2|
+R|T. PALO GRANDE|TPG|37000|37000|0|0|35000|37000|35210|7|22392|788504000||2|
+P|BCO.NAC.CREDITO|BNC||25000|||24490|25000|24970|1|2562699|62786125500||
+P|BOLSA V. CCAS.|BVCC||389990|||388020|400000|392010|3|159250|63510000000||
+P|FONDO V.INM.(B)|FVI.B||2794000|||2794000|2794000|2794000|4|8425|26725105600||
+P|PROAGRO|PGR||153500|||153500|156000|155990|1|5000|750000000||
+P|RON STA. TERESA|RST||2100000|||2100000|2100000|2100000|1|172|335572000||
+VT|11|7|6|
 TX|(*) PRECIO DE CIERRE OFICIAL : Proviene del Mercado de Ordenes, cuyo periodo de liquidacion este previamente definido(T+2).|
 TX|(#) PRECIOS MINIMOS Y MAXIMOS: Corresponden a los precios maximos y minimos  de operaciones regulares a dos (2) dias.|
 TC|Tasa de Cambio del dia BsF/US$ #########|
-DV|(&)BE013P-Colocacion Primaria de Comercial Belloso, Em. 2020-I, Serie III|
-DV|(&)BE023P-Colocacion Primaria de Comercial Belloso, Em. 2020-II, Serie III|
-DV|(&)DL013P-Colocacion Primaria de Destileria Carupano, Em. 2020-I, Serie III|
-DV|(&)DL023P-Colocacion Primaria de Destileria Carupano, Em. 2020-II, Serie II|
-DV|(&)MS214P-Colocacion Primaria de Procesadora Marsoca, Em. 2021, Serie IV|
-DV|(&)TS111P-Colocacion Primaria de Tesoreria Ymas, Em. 2021-I, Serie I|
-DV|(&)TS112P-Colocacion Primaria de Tesoreria Ymas, Em. 2021-I, Serie II|
-BP|A.FM 2021-I S.1P|AF211P|84.32|87.5|3.18|3.77|87.5|87.5||1|55050000000|48168750000||
-BP|A.FM 2021-IIS.1P|AF221P|84.32|87.5|3.18|3.77|87.5|87.5||1|55050000000|48168750000||
-BP|CARGILL 20-2-7 P|CV027P|79.55|79.54|-.01|-.01|79.54|79.54||1|5500000000|4374700000||
-BP|CARUPANO 20-1 3P|DL013P|78.13|78.13|0|0|78.13|78.13||5|40000000000|31252000000||
-BP|CARUPANO 20-2 3P|DL023P|78.13|78.13|0|0|78.13|78.13||5|40000000000|31252000000||
-BP|COBECA 20-1-3 P|BE013P|78.13|78.13|0|0|78.13|78.13||2|150000000000|117195000000||
-BP|COBECA 20-2-3 P|BE023P|78.13|78.13|0|0|78.13|78.13||4|120000000000|93756000000||
-BP|MARSOCA 21, S-4P|MS214P|78.13|78.13|0|0|78.13|78.13||6|125859096000|98333711704.8||
-BP|PC.GENICA 20I-7P|GE017P|78.99|79.17|.18|.23|79.17|79.17||1|14419932000|11416260164.4||
-BP|STERITEX 21-2-2P|SR122P|80.26|81.69|1.43|1.78|81.69|81.69||1|10000000000|8169000000||
-BP|T. YMAS 21-1 S1P|TS111P|78.53|78.53|0|0|78.53|78.53||1|10000000000|7853000000||
-BP|T. YMAS 21-1 S2P|TS112P|78.53|78.53|0|0|78.53|78.53||1|10000000000|7853000000||
-CC|BANCO DE VENEZUELA, S.A. BCO.UNIVERSAL|425000|499000|
-CC|BANCO DEL CARIBE,C.A.BCO.UNIV.CLASE (A)|2450000|2538990|
-CC|BANCO NACIONAL DE CREDITO,C.A.BCO.UNIV.|21490|21500|
-CC|BANCO PROVINCIAL, S.A. BCO. UNIVERSAL|6645000|6724990|
-CC|BCO.OCC.DE DESCUENTO, BCO. UNIVERSAL|480|530|
-CC|BOLSA DE VALORES DE CARACAS, C.A.|366030|388800|
-CC|C.A. RON SANTA TERESA|1973000|1975000|
-CC|C.A. RON SANTA TERESA (CLASE B)|1015000|1220000|
-CC|C.A. TELARES DE PALO GRANDE|30050|37000|
-CC|C.A.NAC.TELF.VZLA. (CANTV) CLASE (D)|615010|705000|
-CC|CERAMICA CARABOBO, SACA|45500000|57999000|
-CC|CORIMON, C.A.|606000|725000|
-CC|CORP. INDUSTRIAL DE ENERGIA CA SACA|59000|60000|
-CC|CORP.GRUPO QUIMICO, C.A.|1701000|3000000|
-CC|DOMINGUEZ & CIA., S.A.|1601000|1980000|
-CC|ENVASES VENEZOLANOS S.A.|730000|750000|
-CC|FABRICA NACIONAL DE CEMENTOS, C.A.|700000|999000|
-CC|FONDO DE VALORES INMOB.,SACA. CLASE (A)|5500000|6499000|
-CC|FONDO DE VALORES INMOB.,SACA. CLASE (B)|2600000|2689000|
-CC|GRUPO ZULIANO, C.A.|2277000|2850000|
+CC|BANCO DE VENEZUELA, S.A. BCO.UNIVERSAL|498000|567000|
+CC|BANCO DEL CARIBE,C.A.BCO.UNIV.CLASE (A)|2450000|2538980|
+CC|BANCO NACIONAL DE CREDITO,C.A.BCO.UNIV.|24500|25000|
+CC|BANCO PROVINCIAL, S.A. BCO. UNIVERSAL|7200000|7499000|
+CC|BCO.OCC.DE DESCUENTO, BCO. UNIVERSAL|480|600|
+CC|BOLSA DE VALORES DE CARACAS, C.A.|388000|389990|
+CC|C.A. RON SANTA TERESA|2105000|2200000|
+CC|C.A. RON SANTA TERESA (CLASE B)|1110000|1215000|
+CC|C.A. TELARES DE PALO GRANDE|34010|37000|
+CC|C.A.NAC.TELF.VZLA. (CANTV) CLASE (D)|660000|690000|
+CC|CERAMICA CARABOBO, SACA|45500000|57998000|
+CC|CORIMON, C.A.|606000|735000|
+CC|CORP. INDUSTRIAL DE ENERGIA CA SACA|58000|69960|
+CC|CORP.GRUPO QUIMICO, C.A.|2200000|3000000|
+CC|DOMINGUEZ & CIA., S.A.|1675000|2020000|
+CC|ENVASES VENEZOLANOS S.A.|801000|840000|
+CC|FABRICA NACIONAL DE CEMENTOS, C.A.|800000|999000|
+CC|FONDO DE VALORES INMOB.,SACA. CLASE (A)|5300000|6499000|
+CC|FONDO DE VALORES INMOB.,SACA. CLASE (B)|2800000|2899000|
+CC|GRUPO ZULIANO, C.A.|2600000|3413000|
+CC|IMPULSA AGRONEGOCIOS, C.A.  CLASE "A"|10000000||
 CC|IMPULSA AGRONEGOCIOS, C.A. CLASE "B"|35000000|42000000|
-CC|INVACA,INMUEBLES,VALORES Y CAPITALES,|1821000|2161000|
-CC|INVERSIONES CRECEPYMES, C.A. CLASE "B"|100000|109990|
-CC|MANUFACTURAS DE PAPEL,C.A.(MANPA) SACA.|755000|770000|
-CC|MERCANTIL SERV. FINANCIEROS C.A. CLS.(A)|6510000|6999990|
-CC|MERCANTIL SERV. FINANCIEROS C.A. CLS.(B)|6500020|6988000|
-CC|PC-IBC FONDO MUTUAL DE INV. CAP. CERRADO|2701000|3450000|
+CC|INVACA,INMUEBLES,VALORES Y CAPITALES,|1500000|2200000|
+CC|INVERSIONES CRECEPYMES, C.A. CLASE "B"|120000|140000|
+CC|MANUFACTURAS DE PAPEL,C.A.(MANPA) SACA.|800000|870000|
+CC|MERCANTIL SERV. FINANCIEROS C.A. CLS.(A)|7000010|7390000|
+CC|MERCANTIL SERV. FINANCIEROS C.A. CLS.(B)|7000010|7150000|
+CC|PC-IBC FONDO MUTUAL DE INV. CAP. CERRADO|2500000|2699000|
 CC|PIVCA PROMOTRA  INV. Y VALORES CLASE "A"|12000000||
 CC|PIVCA PROMOTRA  INV. Y VALORES CLASE "B"|68741000||
-CC|PROAGRO C.A.|140000|144990|
-CC|PRODUCTOS EFE S.A.|330000|390000|
-CC|PROTINAL C.A.|336000|344990|
-CC|SIVENSA, S.A|681000|750000|
-NO|BOLSA DE VALORES DE CARACAS, C.A.|La Bolsa de Valores de Caracas, en su carácter institucional, informa a los Miembros de la Bolsa de Valores de Caracas:<BR>							<BR>VALOR  BURSÁTIL CARACAS 16/08/2021 : 		 1,106 					<BR>VALOR  BURSÁTIL CARACAS (VBC) en Bolivares Bs. 				4.577.689,17			<BR>|
-NO|C.A. CENTRAL LA PASTORA|La Bolsa de Valores de Caracas, en su carácter institucional por promover el Mercado de Valores de Renta Fija del sector primario, informa a los Miembros de la Bolsa de Valores de Caracas y al público en general, sobre las características y condiciones de la Colocación Primaria de Papeles Comerciales al Portador de C.A. CENTRAL LA PASTORA, a realizarse a través del Sistema Integrado Bursátil Electrónico (SIBE).<BR><BR>Los títulos para colocar son los correspondientes a la Serie I, de la Emisión 2020-I, de Papeles Comerciales al Portador, emitidos por la Empresa Emisora C.A. CENTRAL LA PASTORA.<BR><BR>Tipo  de Evento 	Colocación Primaria de Valores<BR>Valores a ser  colocados 	Papeles Comerciales  <BR>Autorización SNV 	Providencia Nro. 138/2021 de fecha 22/07/2021.<BR>Emisor	C.A. CENTRAL LA PASTORA<BR>Emisión 	2020-I<BR>Series a colocar		Serie I.<BR>Monto de Emisión. 	Bs.  100.000.000.000,00.<BR>Monto por serie 	Bs.  100.000.000.000,00.<BR>Códigos  ISIN	VEV00411XCM9<BR>Código del Activo	PC<BR>Código de Símbolo en SIBE, Mercado Primario	LA011P<BR>Fecha de Inicio de Sesión Especial 	18/08/2021<BR>Fecha de Vencimiento de la Serie.	18/11/2021<BR>Agentes de la Colocación 	Fivenca Casa de Bolsa, C.A.<BR>Forma de Colocación 	A mayores esfuerzos <BR>Precio de Colocación	78,13%<BR>Base de cálculo 	30/360<BR>Calificación de Riesgo	A1a Calificadores, Sociedad Calificadora de Riesgo Categoría A, Subcategoría A2<BR>Clave Sociedad Calificadora de Riesgo, C.A. Categoría A, Subcategoría A3<BR>Horario de Sesión Especial	De 9:30 a.m. a 1:00 p.m.<BR>|
-NO|COMERCIAL BELLOSO, C.A. (COBECA)|La Bolsa de Valores de Caracas, en su carácter institucional por promover el Mercado de Valores de Renta Fija del sector primario, informa a los Miembros Accionistas de la Bolsa de Valores de Caracas y al Público en General, sobre las características y condiciones de la Colocación Primaria de Papeles Comerciales al Portador de COMERCIAL BELLOSO, C.A. (COBECA), a realizarse a través del Sistema Integrado Bursátil Electrónico (SIBE).<BR><BR>Los títulos para colocar serían los correspondientes a la Serie III, de las Emisión 2020-I y Emisión 2020-II, de Papeles Comerciales al Portador, emitidos por la Empresa Emisora COMERCIAL BELLOSO, C.A. (COBECA).<BR><BR>Tipo de Evento 	Colocación Primaria de Valores<BR>Valores para Colocar. 	Papeles Comerciales<BR>Autorización SNV 	Providencia No 011/2021 de fecha 01/02/2021<BR>Providencia No 012/2021 de fecha 01/02/2021<BR>Emisor	COMERCIAL BELLOSO, C.A. (COBECA)<BR>Emisión 	2020-I<BR>Emisión    2020-II<BR>Series para colocar		Serie III c/u.<BR>Monto de Emisión. 	Bs.  150.000.000.000,00 c/u.<BR>Monto por serie 	Bs.  150.000.000.000,00 c/u.<BR>Códigos ISIN	2020-I, Serie III:  VEV00409XCA8<BR>2020-II, Serie III: VEV00409XCB6<BR>Código del Activo	P.C.<BR>Código de Símbolo en SIBE, Mercado Primario	2020-I, Serie III:  BE013P<BR>2020-II, Serie III: BE023P<BR>Fecha de Inicio de Sesión Especial 	17/08/2021<BR>Fecha de Vencimiento de la Serie.	17/11/2021<BR>Agentes de la Colocación 	Fivenca Casa de Bolsa, C.A.<BR>Forma de Colocación 	A mayores esfuerzos <BR>Precio de Colocación	78,13%<BR>Base de cálculo 	30/360<BR>Calificación de Riesgo	A1A Calificadores, Sociedad Calificadora de Riesgo - Categoría A, Subcategoría A3<BR>Global Ratings, Sociedad Calificadora de Riesgo, C.A. Categoría A, Subcategoría A3<BR>Horario de Sesión Especial	 De 9:30a.m a 1:00 p.m.<BR>|
-NO|DESTILERIA CARUPANO, C.A.|La Bolsa de Valores de Caracas, en su carácter institucional por promover el Mercado de Valores de Renta Fija del sector primario, informa a los Miembros de la Bolsa de Valores de Caracas y al público en general, sobre las características y condiciones de la Colocación Primaria de Papeles Comerciales al Portador de DESTILERIA CARUPANO, C.A., a realizarse a través del Sistema Integrado Bursátil Electrónico (SIBE).<BR><BR>Los títulos para colocarse son los correspondientes a la Serie III, de las Emisiones 2020-I y 2020-II, de Papeles Comerciales al Portador, emitidos por la Empresa Emisora DESTILERIA CARUPANO, C.A.<BR><BR>Tipo de Evento 	Colocación Primaria de Valores<BR>Valores para colocar 	Papeles Comerciales  <BR>Autorización SNV 	Providencia Nro. 222/2020 de fecha 17/12/2020<BR>Providencia Nro. 223/2020 de fecha 17/12/2020<BR>Emisor	DESTILERIA CARUPANO, C.A.<BR>Emisión 	2020-I<BR>Emisión    2020-II<BR>Series para colocar		Serie III c/u.<BR>Monto de Emisión. 	Bs.  40.000.000.000,00 c/u.<BR>Monto por serie 	Bs.  40.000.000.000,00 c/u.<BR>Códigos ISIN	2020-I, Serie III:  VEV00389XCC8<BR>2020-II, Serie III: VEV00389XCD6<BR>Código del Activo	PC<BR>Código de Símbolo en SIBE, Mercado Primario	2020-I, Serie III: DL013P<BR>2020-II, Serie III: DL023P<BR>Fecha de Inicio de Sesión Especial 	17/08/2021<BR>Fecha de vencimiento de la Serie.	17/11/2021<BR>Agentes de la Colocación 	Ratio Casa de Bolsa, C.A.<BR>Forma de Colocación 	A mayores esfuerzos <BR>Precio de Colocación	78,13%<BR>Base de cálculo 	30/360<BR>Calificación de Riesgo	Global Ratings, Sociedad Calificadora de Riesgo Categoría A, Subcategoría A3<BR>A1a Calificadores, Sociedad Calificadora de Riesgo, C.A. Categoría A, Subcategoría A2<BR>Horario de Sesión Especial	 De 9:30 a.m. a 1:00 p.m. <BR>|
+CC|PROAGRO C.A.|152010|156000|
+CC|PRODUCTOS EFE S.A.|360000|390000|
+CC|PROTINAL C.A.|301000|344000|
+CC|SIVENSA, S.A|685000|700000|
+NO|BANCO DEL CARIBE, C.A. BANCO UNIVERSAL|CONVOCATORIA ASAMBLEA GENERAL ORDINARIA DE ACCIONISTAS<BR>BANCO DEL CARIBE C.A., BANCO UNIVERSAL (BANCARIBE)<BR><BR>Se convoca a los señores accionistas de la sociedad para la Asamblea General que se celebrará el jueves 16 de septiembre de 2021, a las 9:30 a.m., en el piso 2 de la Torre Bancaribe del Centro Empresarial Galipán, situado en la Avenida Francisco de Miranda, Urbanización El Rosal, Caracas y a través de videoconferencia, con los siguientes objetos:<BR><BR>1.	Conocer el Informe de la Junta Directiva.<BR><BR>2.	Discutir, aprobar o modificar el Balance General y el Estado de Ganancias y Pérdidas correspondientes al primer semestre de 2021, con vista del Informe de los Comisarios.<BR><BR>3.	Conocer y resolver sobre la propuesta de la Junta Directiva referida a la distribución de la utilidad del semestre, de conformidad con lo previsto en el artículo 26 de los Estatutos Sociales, en concordancia con el artículo 47 del Decreto con Rango, Valor y Fuerza de Ley de Instituciones del Sector Bancario<BR><BR>4.	Considerar la propuesta de aumento de capital social hasta por la cantidad de trece mil trescientos cincuenta millones de bolívares (Bs. 13.350.000.000), con cargo a la cuenta de ¿Aportes patrimoniales no capitalizados¿. Dicho aumento de capital conllevaría la emisión de veintiséis millones setecientas mil (26.700.000) nuevas acciones y quedaría sujeta a la aprobación por las autoridades gubernativas del valor nominal de Bs 500 por cada acción acordado por la Asamblea en marzo de este año, a ser distribuidas entre los accionistas, a razón de una nueva acción por cada cinco acciones Clase A y Clase B en tenencia.<BR><BR>5.	Autorizar suficientemente a la Junta Directiva para realizar todos los actos necesarios o convenientes para la ejecución de las decisiones adoptadas por la Asamblea, así como para redactar el texto definitivo del artículo 5 de los Estatutos Sociales, de resultar aprobada la anterior propuesta.<BR><BR>Caracas, 17 de agosto de 2021<BR>Por La Junta Directiva<BR>Juan Carlos Dao<BR>Presidente<BR>|
+NO||Notas: <BR>1.	Copias del Informe de la Junta Directiva, de los estados financieros, del Informe de los Comisarios y de las propuestas de la Junta Directiva estarán a disposición de los señores accionistas con veinticinco (25) días de anticipación a la celebración de la Asamblea, en la Dirección de Secretaria General, piso 12 de la Torre Bancaribe del Centro Empresarial Galipán, situado en la Avenida Francisco de Miranda, Urbanización El Rosal,  en la oficina principal de nuestro Agente de Traspaso, Banco Venezolano de Crédito, ambas en Caracas, y también en la página web www.bancaribe.com.ve.<BR><BR>2.	Considerando las actuales circunstancias excepcionales, ante el riesgo de propagación del coronavirus (Covid-19), invitamos a los accionistas a participar en la asamblea a través de videoconferencia, a cuyos efectos se publicarán oportunamente las coordenadas e instrucciones para la conexión en nuestra página web www.banacaribe.com.ve<BR><BR>3.	En estricto cumplimiento de la normativa sanitaria establecida en la Resolución del Ministerio del Poder Popular para la Salud Nro. 090 del 1 de junio de 2020, así como de las recomendaciones de la Organización Mundial de la Salud (OMS), se adoptarán, entre otras medidas biosanitarias, las siguientes; número limitado de asistentes a la asamblea, uso obligatorio de mascarilla, medición de la temperatura corporal y aplicación de gel antibacterial al ingresar a las instalaciones, distanciamiento social de, al menos, 1,5 metros entre los asistentes y desinfección de los espacios físicos y superficies de contacto<BR>|
+NO|BOLSA DE VALORES DE CARACAS, C.A.|La Bolsa de Valores de Caracas, en su carácter institucional, informa a los Miembros de la Bolsa de Valores de Caracas:<BR>							<BR>VALOR BURSÁTIL CARACAS 19/08/2021 : 		 1,111 					<BR>VALOR BURSÁTIL CARACAS (VBC) en Bolivares Bs. 				4.540.047,70			<BR>|
