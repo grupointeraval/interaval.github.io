@@ -740,7 +740,7 @@ ibc <- as.data.frame(read_excel("C:/Users/analista04/Documents/R/grupointeraval.
  
 ```
 
-### YTD y Beta acciones
+### YTD
 
 ```{r echo=FALSE, message=FALSE, warning=FALSE}
 grafico_ytd=hchart(ytd, "column", hcaes(x = acciones, y = ytds)) %>%
