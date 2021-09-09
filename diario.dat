@@ -1,73 +1,84 @@
-IG|07092021|5976.44|-259.52|-4.16|6781.05|500.02|-46257.24|-88.56|
-IF|07092021|10479.22|-534.36|-4.85|
-II|07092021|3197.84|-71.32|-2.18|
-R|B.DE VENEZUELA|BVL|549900|475000|-74900|-13.62|475000|500000|498600|4|537|267750000||3|
-R|B.OCC.DCTO.B.U.|BOU|590|580|-10|-1.69|580|580|580|3|50906|29525480||3|
-R|BCO. CARIBE "A"|ABC.A|2900000|2700000|-200000|-6.9|2700000|2700000|2700000|1|2|5400000||3|
-R|BCO. PROVINCIAL|BPV|6500010|6200000|-300010|-4.62|6200000|6500000|6256480|12|1089|6922500000||3|
-R|BCO.NAC.CREDITO|BNC|22000|21000|-1000|-4.55|20000|22000|21050|18|72148|1522535500||3|
-R|BOLSA V. CCAS.|BVCC|360000|360000|0|0|360000|360000|360000|6|10621|3823560000||2|
-R|CANTV CLASE (D)|TDV.D|700000|680000|-20000|-2.86|680000|700000|689420|3|189|130300000||3|
-R|CORP.IND.ENERGIA|CIE|58000|58000|0|0|64970|64970|64970|1|20|1299400||2|
-R|CR.CARABOBO|CCR|50000000|40001000|-9999000|-20|40001000|40001000|40001000|1|2|80002000||3|
-R|ENVASES VZLOS.|ENV|850000|800000|-50000|-5.88|800000|850000|801700|7|820|657395000||3|
-R|FONDO V.INM.(A)|FVI.A|7319000|7319000|0|0|7319000|7319000|7319000|1|5|36595000||2|
-R|FONDO V.INM.(B)|FVI.B|2650000|2698000|48000|1.81|2649000|2699000|2651810|6|628|1665338000||1|
-R|GRUPO ZULIANO|GZL|2600000|2600000|0|0|2600000|2600000|2600000|1|7|18200000||2|
-R|MANPA, C.A. SACA|MPA|904000|850000|-54000|-5.97|850000|850000|850000|2|94|79900000||3|
-R|MERCANTIL S.(A)|MVZ.A|7000000|6400000|-600000|-8.57|6400000|6400000|6400000|2|401|2804600000||3|
-R|PRODUCTOS EFE|EFE|370000|350000|-20000|-5.41|350000|350000|350000|2|167|58450000||3|
-R|R.S.TERESA "B"|RST.B|1200000|1200000|0|0|1200000|1200000|1200000|2|9|10800000||2|
-R|RON STA. TERESA|RST|1950000|1910000|-40000|-2.05|1910000|1910000|1910000|5|215|409650000||3|
-P|B.DE VENEZUELA|BVL||475000|||475000|500000|498600|1|100|48500000||
-P|BCO. PROVINCIAL|BPV||6200000|||6200000|6500000|6256480|1|10|62000000||
-P|BCO.NAC.CREDITO|BNC||21000|||20000|22000|21050|1|1810|38010000||
-P|BOLSA V. CCAS.|BVCC||360000|||360000|360000|360000|2|999|355015000||
-P|DOMINGUEZ & CIA|DOM||2100000|||0|0|0|1|40|78000000||
-P|FONDO V.INM.(B)|FVI.B||2698000|||2649000|2699000|2651810|2|206|540900000||
-P|MERCANTIL S.(B)|MVZ.B||7000000|||0|0|0|1|13|88400000||
-P|R.S.TERESA "B"|RST.B||1200000|||1200000|1200000|1200000|1|100|108100000||
-P|RON STA. TERESA|RST||1910000|||1910000|1910000|1910000|8|3565|8172156070||
-VT|1|12|5|
+IG|09092021|6002.25|-17.42|-.29|6781.05|500.02|-46231.43|-88.51|
+IF|09092021|10522.81|-10.74|-.1|
+II|09092021|3213.07|-26.17|-.81|
+R|B.DE VENEZUELA|BVL|473990|451000|-22990|-4.85|450000|472000|453010|7|1013|458900000||3|
+R|B.OCC.DCTO.B.U.|BOU|580|580|0|0|550|590|580|6|287979|167015940||2|
+R|BCO. CARIBE "A"|ABC.A|2687000|2500000|-187000|-6.96|2350000|2687000|2360500|11|1020|2407715000||3|
+R|BCO. PROVINCIAL|BPV|6200000|6201000|1000|.02|6200000|6201000|6200090|11|222|1376419000||1|
+R|BCO.NAC.CREDITO|BNC|21530|22000|470|2.18|21530|22000|21930|38|48840|1071038600||1|
+R|BOLSA V. CCAS.|BVCC|330000|335000|5000|1.52|335000|340000|337550|15|2119|716844080||1|
+R|CANTV CLASE (D)|TDV.D|675000|660000|-15000|-2.22|660000|675000|670070|8|304|203700000||3|
+R|CORIMON C.A.|CRM.A|665000|655000|-10000|-1.5|655000|700000|658580|5|308|202844000||3|
+R|CORP.IND.ENERGIA|CIE|58000|60000|2000|3.45|60000|60000|60000|5|1452|87120000||1|
+R|ENVASES VZLOS.|ENV|800000|800000|0|0|800000|800000|800000|7|712|569600000||2|
+R|FONDO V.INM.(B)|FVI.B|2795000|2690000|-105000|-3.76|2500000|2697000|2686460|9|118|317108000||3|
+R|MANPA, C.A. SACA|MPA|850000|840000|-10000|-1.18|840000|840000|840000|1|10|8400000||3|
+R|MERCANTIL S.(B)|MVZ.B|6201000|6201000|0|0|6201000|6201000|6201000|4|14|86814000||2|
+R|PC-IBC F.M.I.C.C|PER|2849000|2280000|-569000|-19.97|2280000|2300000|2286670|2|3|6860000||3|
+R|PROAGRO|PGR|175000|178990|3990|2.28|170000|178990|171060|4|119|20355860||1|
+R|PRODUCTOS EFE|EFE|348990|330000|-18990|-5.44|330000|348990|330440|3|300|99132930||3|
+R|PROTINAL|PTN|378000|379000|1000|.26|379000|380000|379080|3|25|9477000||1|
+R|R.S.TERESA "B"|RST.B|1200000|1199990|-10|0|1199990|1199990|1199990|1|5|5999950||3|
+R|RON STA. TERESA|RST|2000000|2000000|0|0|2000000|2000000|2000000|6|248|496999900||2|
+R|T. PALO GRANDE|TPG|36990|35020|-1970|-5.33|35020|36490|35670|4|7420|264698800||3|
+P|B.DE VENEZUELA|BVL||451000|||450000|472000|453010|1|10|4500000||
+P|BCO. PROVINCIAL|BPV||6201000|||6200000|6201000|6200090|1|10|62000000||
+P|BCO.NAC.CREDITO|BNC||22000|||21530|22000|21930|4|36683345|631832412140||
+P|BOLSA V. CCAS.|BVCC||335000|||335000|340000|337550|7|3321|1073929000||
+P|CANTV CLASE (D)|TDV.D||660000|||660000|675000|670070|3|19964|13304095600||
+P|CORP.GPO.QUIM.|CGQ||3000000|||0|0|0|1|11|29700000||
+P|CR.CARABOBO|CCR||40001000|||0|0|0|1|6|228000000||
+P|FONDO V.INM.(A)|FVI.A||7600000|||0|0|0|1|8|60800000||
+P|FONDO V.INM.(B)|FVI.B||2690000|||2500000|2697000|2686460|3|96656|229487907520||
+P|INM.VAL.Y CAP.|IVC||3500000|||0|0|0|3|6004|14825195000||
+P|MERCANTIL S.(A)|MVZ.A||6998000|||0|0|0|3|2648|13080661600||
+P|MERCANTIL S.(B)|MVZ.B||6201000|||6201000|6201000|6201000|3|6680|32975928000||
+P|PROAGRO|PGR||178990|||170000|178990|171060|2|59968|7609339520||
+P|PROTINAL|PTN||379000|||379000|380000|379080|6|521220|205627170000||
+P|R.S.TERESA "B"|RST.B||1199990|||1199990|1199990|1199990|2|60|65400000||
+P|RON STA. TERESA|RST||2000000|||2000000|2000000|2000000|5|302|667379200||
+P|SIVENSA, S.A.|SVS||700000|||0|0|0|2|220|154000000||
+VT|6|10|4|
 TX|(*) PRECIO DE CIERRE OFICIAL : Proviene del Mercado de Ordenes, cuyo periodo de liquidacion este previamente definido(T+2).|
 TX|(#) PRECIOS MINIMOS Y MAXIMOS: Corresponden a los precios maximos y minimos  de operaciones regulares a dos (2) dias.|
 TC|Tasa de Cambio del dia BsF/US$ #########|
-DV|(&)AF231P-Colocacion Primaria de Alimentos FM, Em 2021-III, Serie I|
-DV|(&)AF241P-Colocacion Primaria de Alimentos FM, Em 2021-IV, Serie I|
-BP|A.FM 2021-3 S.1P|AF231P|78.17|78.17|0|0|78.17|78.17||1|100000000000|78170000000||
-BP|A.FM 2021-4 S.1P|AF241P|78.17|78.17|0|0|78.17|78.17||1|100000000000|78170000000||
-CC|BANCO DE VENEZUELA, S.A. BCO.UNIVERSAL|450000|474000|
-CC|BANCO DEL CARIBE,C.A.BCO.UNIV.CLASE (A)|2351000|2700000|
-CC|BANCO NACIONAL DE CREDITO,C.A.BCO.UNIV.|21150|21500|
-CC|BANCO PROVINCIAL, S.A. BCO. UNIVERSAL|6200000|6399000|
-CC|BCO.OCC.DE DESCUENTO, BCO. UNIVERSAL|500|580|
-CC|BOLSA DE VALORES DE CARACAS, C.A.|350000|359580|
-CC|C.A. RON SANTA TERESA|1900000|1950000|
-CC|C.A. RON SANTA TERESA (CLASE B)|1100000|1199000|
-CC|C.A. TELARES DE PALO GRANDE|32000|37000|
-CC|C.A.NAC.TELF.VZLA. (CANTV) CLASE (D)|650000|680000|
-CC|CERAMICA CARABOBO, SACA||54999000|
-CC|CORIMON, C.A.|665000|729000|
-CC|CORP. INDUSTRIAL DE ENERGIA CA SACA|58000|64970|
+DV|(&)GM051P-Colocacion Primaria de P.C. de Galaxia Mediaca, Em. 2020-V, Serie I|
+BP|PC.G.M. 20-5,1P|GM051P|78.13|78.13|0|0|78.13|78.13||1|5000000000|3906500000||
+BP|PC.GENICA 20I-9P|GE019P|78.13|78.18|.05|.06|78.18|78.18||2|30522753000|23862688295.4||
+CC|BANCO DE VENEZUELA, S.A. BCO.UNIVERSAL|401000|451000|
+CC|BANCO DEL CARIBE,C.A.BCO.UNIV.CLASE (A)|2350000|2500000|
+CC|BANCO NACIONAL DE CREDITO,C.A.BCO.UNIV.|21600|22000|
+CC|BANCO PROVINCIAL, S.A. BCO. UNIVERSAL|6110000|6201000|
+CC|BCO.OCC.DE DESCUENTO, BCO. UNIVERSAL|490|580|
+CC|BOLSA DE VALORES DE CARACAS, C.A.|331500|335000|
+CC|C.A. RON SANTA TERESA|2000000|2090000|
+CC|C.A. RON SANTA TERESA (CLASE B)|1055000|1199990|
+CC|C.A. TELARES DE PALO GRANDE|35050|36990|
+CC|C.A.NAC.TELF.VZLA. (CANTV) CLASE (D)|660000|675000|
+CC|CERAMICA CARABOBO, SACA||40000000|
+CC|CORIMON, C.A.|600000|665000|
+CC|CORP. INDUSTRIAL DE ENERGIA CA SACA|58010|60000|
 CC|CORP.GRUPO QUIMICO, C.A.|1200000|3000000|
 CC|DOMINGUEZ & CIA., S.A.|1805000|2050000|
-CC|ENVASES VENEZOLANOS S.A.|701000|800000|
-CC|FABRICA NACIONAL DE CEMENTOS, C.A.|800000|950000|
-CC|FONDO DE VALORES INMOB.,SACA. CLASE (A)|7319000|8782000|
-CC|FONDO DE VALORES INMOB.,SACA. CLASE (B)|2500000|2699000|
-CC|GRUPO ZULIANO, C.A.|2401000|2600000|
-CC|IMPULSA AGRONEGOCIOS, C.A. CLASE "B"|38000000|42000000|
-CC|INVACA,INMUEBLES,VALORES Y CAPITALES,|1400000|4100000|
-CC|INVERSIONES CRECEPYMES, C.A. CLASE "B"|96000|120000|
-CC|MANUFACTURAS DE PAPEL,C.A.(MANPA) SACA.|800000|850000|
-CC|MERCANTIL SERV. FINANCIEROS C.A. CLS.(A)|6400000|6900000|
-CC|MERCANTIL SERV. FINANCIEROS C.A. CLS.(B)|6301000|6994900|
-CC|PC-IBC FONDO MUTUAL DE INV. CAP. CERRADO|2301000|2949000|
-CC|PROAGRO C.A.|161000|179990|
-CC|PRODUCTOS EFE S.A.|300000|350000|
-CC|PROTINAL C.A.|350000|368000|
-CC|SIVENSA, S.A|680000|720000|
-NO|BOLSA DE VALORES DE CARACAS, C.A.|La Bolsa de Valores de Caracas, en su carácter institucional, informa a los Miembros de la Bolsa de Valores de Caracas:<BR>							<BR>VALOR BURSÁTIL CARACAS 06/09/2021 : 		 1,120 					<BR>VALOR BURSÁTIL CARACAS (VBC) en Bolivares Bs. 				4.549.472,66			<BR>|
-NO||Visto que el Banco Central de Venezuela estableció que desde el 1 de septiembre de 2021, y hasta que el Banco Central de Venezuela así lo disponga, los precios deben exhibirse en la nueva escala monetaria y también en su actual expresión, la Bolsa de Valores de Caracas informa al mercado:<BR><BR>ABC.A_______________Cierre en Bs.   2700000_____Cierre en Nueva Expresión Bs.       2,700000<BR>BNC_________________Cierre en Bs.     21000_____Cierre en Nueva Expresión Bs.       0,021000<BR>BOU_________________Cierre en Bs.       580_____Cierre en Nueva Expresión Bs.       0,000580<BR>BPV_________________Cierre en Bs.   6200000_____Cierre en Nueva Expresión Bs.       6,200000<BR>BVCC________________Cierre en Bs.    360000_____Cierre en Nueva Expresión Bs.       0,360000<BR>BVL_________________Cierre en Bs.    475000_____Cierre en Nueva Expresión Bs.       0,475000<BR>CCR_________________Cierre en Bs.  40001000_____Cierre en Nueva Expresión Bs.      40,001000<BR>CGQ_________________Cierre en Bs.   3000000_____Cierre en Nueva Expresión Bs.       3,000000<BR>CIE_________________Cierre en Bs.     58000_____Cierre en Nueva Expresión Bs.       0,058000<BR>CRM.A_______________Cierre en Bs.    665000_____Cierre en Nueva Expresión Bs.       0,665000<BR>DOM_________________Cierre en Bs.   2100000_____Cierre en Nueva Expresión Bs.       2,100000<BR>EFE_________________Cierre en Bs.    350000_____Cierre en Nueva Expresión Bs.       0,350000<BR>ENV_________________Cierre en Bs.    800000_____Cierre en Nueva Expresión Bs.       0,800000<BR>FFV.A_______________Cierre en Bs.      1000_____Cierre en Nueva Expresión Bs.       0,001000<BR>FFV.B_______________Cierre en Bs.      1000_____Cierre en Nueva Expresión Bs.       0,001000<BR>FNC_________________Cierre en Bs.    999000_____Cierre en Nueva Expresión Bs.       0,999000<BR>FVI.A_______________Cierre en Bs.   7319000_____Cierre en Nueva Expresión Bs.       7,319000<BR>FVI.B_______________Cierre en Bs.   2698000_____Cierre en Nueva Expresión Bs.       2,698000<BR>|
-NO||GZL_________________Cierre en Bs.   2600000_____Cierre en Nueva Expresión Bs.       2,600000<BR>ICP.B_______________Cierre en Bs.    140000_____Cierre en Nueva Expresión Bs.       0,140000<BR>IMP.A_______________Cierre en Bs.  10000000_____Cierre en Nueva Expresión Bs.      10,000000<BR>IMP.B_______________Cierre en Bs.  42000000_____Cierre en Nueva Expresión Bs.      42,000000<BR>IVC_________________Cierre en Bs.   3500000_____Cierre en Nueva Expresión Bs.       3,500000<BR>MPA_________________Cierre en Bs.    850000_____Cierre en Nueva Expresión Bs.       0,850000<BR>MVZ.A_______________Cierre en Bs.   6400000_____Cierre en Nueva Expresión Bs.       6,400000<BR>MVZ.B_______________Cierre en Bs.   7000000_____Cierre en Nueva Expresión Bs.       7,000000<BR>PER_________________Cierre en Bs.   2849000_____Cierre en Nueva Expresión Bs.       2,849000<BR>PGR_________________Cierre en Bs.    179990_____Cierre en Nueva Expresión Bs.       0,179990<BR>PIV.B_______________Cierre en Bs. 231000000_____Cierre en Nueva Expresión Bs.     231,000000<BR>PTN_________________Cierre en Bs.    378000_____Cierre en Nueva Expresión Bs.       0,378000<BR>RST_________________Cierre en Bs.   1910000_____Cierre en Nueva Expresión Bs.       1,910000<BR>RST.B_______________Cierre en Bs.   1200000_____Cierre en Nueva Expresión Bs.       1,200000<BR>SVS_________________Cierre en Bs.    769990_____Cierre en Nueva Expresión Bs.       0,769990<BR>TDV.D_______________Cierre en Bs.    680000_____Cierre en Nueva Expresión Bs.       0,680000<BR>TPG_________________Cierre en Bs.     35010_____Cierre en Nueva Expresión Bs.       0,035010|
-NO|GENERAL DE ALIMENTOS NISA, C.A. (GENICA)|La Bolsa de Valores de Caracas, en su carácter institucional por promover el Mercado de Valores de Renta Fija del sector primario, informa a los Miembros de la Bolsa de Valores de Caracas y al público en general, sobre las características y condiciones de la Colocación Primaria de Papeles Comerciales al Portador de GENERAL DE ALIMENTOS NISA, C.A. (GENICA), a realizarse a través del Sistema Integrado Bursátil Electrónico (SIBE).<BR><BR>Los títulos para colocarse son los correspondientes a la Serie IX, de la Emisión 2020-I, de Papeles Comerciales al Portador, emitidos por la Empresa Emisora GENERAL DE ALIMENTOS NISA, C.A. (GENICA).<BR><BR>Tipo de Evento 	Colocación Primaria de Valores<BR>Valores para colocar 	Papeles Comerciales  <BR>Autorización SNV 	Providencia Nro. 210 de fecha 10/12/2020<BR>Emisor	GENERAL DE ALIMENTOS NISA, C.A. (GENICA),<BR>Emisión 	2020-I<BR>Series para colocar		Serie IX.<BR>Monto de Emisión. 	Bs.  215.984.000.000,00.<BR>Monto por serie 	Bs.  55.734.000.000,00.<BR>Códigos ISIN	VEV00406XCY4<BR>Código del Activo	PC<BR>Código de Símbolo en SIBE, Mercado Primario	GE019P<BR>Fecha de Inicio de Sesión Especial 	08/09/2021<BR>Fecha de Vencimiento de la Serie.	08/12/2021<BR>Agentes de la Colocación 	Caja Caracas Casa de Bolsa, C.A.<BR>Forma de Colocación 	A mayores esfuerzos <BR>Precio de Colocación	78,13%<BR>Base de cálculo 	30/360<BR>Calificación de Riesgo	A1a Calificadores, Sociedad Calificadora de Riesgo Categoría A, Subcategoría A2<BR>Global Ratings, Sociedad Calificadora de Riesgo, C.A. Categoría A, Subcategoría A3<BR>Horario de Sesión Especial	 De 9:30a.m a 1:00 p.m. <BR>|
+CC|ENVASES VENEZOLANOS S.A.|790000|800000|
+CC|FABRICA NACIONAL DE CEMENTOS, C.A.||999000|
+CC|FONDO DE VALORES INMOB.,SACA. CLASE (A)|6000000|7600000|
+CC|FONDO DE VALORES INMOB.,SACA. CLASE (B)|2600000|2689000|
+CC|GRUPO ZULIANO, C.A.|2400000|3000000|
+CC|IMPULSA AGRONEGOCIOS, C.A. CLASE "B"||38000000|
+CC|INVACA,INMUEBLES,VALORES Y CAPITALES,|1400000|3500000|
+CC|INVERSIONES CRECEPYMES, C.A. CLASE "B"|96000|130000|
+CC|MANUFACTURAS DE PAPEL,C.A.(MANPA) SACA.|840000|850000|
+CC|MERCANTIL SERV. FINANCIEROS C.A. CLS.(A)|6000000|6990990|
+CC|MERCANTIL SERV. FINANCIEROS C.A. CLS.(B)|6200000|6250000|
+CC|PC-IBC FONDO MUTUAL DE INV. CAP. CERRADO|2280000|2450000|
+CC|PIVCA PROMOTRA  INV. Y VALORES CLASE "B"|205000000|305000000|
+CC|PROAGRO C.A.|170000|178990|
+CC|PRODUCTOS EFE S.A.|330000|343000|
+CC|PROTINAL C.A.|370000|379000|
+CC|SIVENSA, S.A|561000|739990|
+NO|BOLSA DE VALORES DE CARACAS, C.A.|La Bolsa de Valores de Caracas, en su carácter institucional, informa a los Miembros de la Bolsa de Valores de Caracas:<BR>							<BR>VALOR BURSÁTIL CARACAS 08/09/2021 : 		 1,121 					<BR>VALOR BURSÁTIL CARACAS (VBC) en Bolivares Bs. 				4.568.012,54			<BR>|
+NO||Visto que el Banco Central de Venezuela estableció que desde el 1 de septiembre de 2021, y hasta que el Banco Central de Venezuela así lo disponga, los precios deben exhibirse en la nueva escala monetaria y también en su actual expresión, la Bolsa de Valores de Caracas informa al mercado:<BR>ABC.A_______________Cierre en Bs.   2500000_____Cierre en Nueva Expresión Bs.       2,500000<BR>BNC_________________Cierre en Bs.     22000_____Cierre en Nueva Expresión Bs.       0,022000<BR>BOU_________________Cierre en Bs.       580_____Cierre en Nueva Expresión Bs.       0,000580<BR>BPV_________________Cierre en Bs.   6201000_____Cierre en Nueva Expresión Bs.       6,201000<BR>BVCC________________Cierre en Bs.    335000_____Cierre en Nueva Expresión Bs.       0,335000<BR>BVL_________________Cierre en Bs.    451000_____Cierre en Nueva Expresión Bs.       0,451000<BR>CCR_________________Cierre en Bs.  40001000_____Cierre en Nueva Expresión Bs.      40,001000<BR>CGQ_________________Cierre en Bs.   3000000_____Cierre en Nueva Expresión Bs.       3,000000<BR>CIE_________________Cierre en Bs.     60000_____Cierre en Nueva Expresión Bs.       0,060000<BR>CRM.A_______________Cierre en Bs.    655000_____Cierre en Nueva Expresión Bs.       0,655000<BR>DOM_________________Cierre en Bs.   2050000_____Cierre en Nueva Expresión Bs.       2,050000<BR>EFE_________________Cierre en Bs.    330000_____Cierre en Nueva Expresión Bs.       0,330000<BR>ENV_________________Cierre en Bs.    800000_____Cierre en Nueva Expresión Bs.       0,800000<BR>FFV.A_______________Cierre en Bs.      1000_____Cierre en Nueva Expresión Bs.       0,001000<BR>FFV.B_______________Cierre en Bs.      1000_____Cierre en Nueva Expresión Bs.       0,001000<BR>FNC_________________Cierre en Bs.    999000_____Cierre en Nueva Expresión Bs.       0,999000<BR>FVI.A_______________Cierre en Bs.   7600000_____Cierre en Nueva Expresión Bs.       7,600000<BR>FVI.B_______________Cierre en Bs.   2690000_____Cierre en Nueva Expresión Bs.       2,690000|
+NO||GZL_________________Cierre en Bs.   2600000_____Cierre en Nueva Expresión Bs.       2,600000<BR>ICP.B_______________Cierre en Bs.    140000_____Cierre en Nueva Expresión Bs.       0,140000<BR>IMP.A_______________Cierre en Bs.  10000000_____Cierre en Nueva Expresión Bs.      10,000000<BR>IMP.B_______________Cierre en Bs.  42000000_____Cierre en Nueva Expresión Bs.      42,000000<BR>IVC_________________Cierre en Bs.   3500000_____Cierre en Nueva Expresión Bs.       3,500000<BR>MPA_________________Cierre en Bs.    840000_____Cierre en Nueva Expresión Bs.       0,840000<BR>MVZ.A_______________Cierre en Bs.   6998000_____Cierre en Nueva Expresión Bs.       6,998000<BR>MVZ.B_______________Cierre en Bs.   6201000_____Cierre en Nueva Expresión Bs.       6,201000<BR>PER_________________Cierre en Bs.   2280000_____Cierre en Nueva Expresión Bs.       2,280000<BR>PGR_________________Cierre en Bs.    178990_____Cierre en Nueva Expresión Bs.       0,178990<BR>PIV.B_______________Cierre en Bs.    255000_____Cierre en Nueva Expresión Bs.       0,255000<BR>PTN_________________Cierre en Bs.    379000_____Cierre en Nueva Expresión Bs.       0,379000<BR>RST_________________Cierre en Bs.   2000000_____Cierre en Nueva Expresión Bs.       2,000000<BR>RST.B_______________Cierre en Bs.   1199990_____Cierre en Nueva Expresión Bs.       1,199990<BR>SVS_________________Cierre en Bs.    700000_____Cierre en Nueva Expresión Bs.       0,700000<BR>TDV.D_______________Cierre en Bs.    660000_____Cierre en Nueva Expresión Bs.       0,660000<BR>TPG_________________Cierre en Bs.     35020_____Cierre en Nueva Expresión Bs.       0,035020|
+NO||BOLSA DE VALORES DE CARACAS SOBRE LA NUEVA EXPRESIÓN MONETARIA <BR>                                               2do. Comunicado<BR><BR>Se notifica a los señores miembros y público en general que, de conformidad con lo establecido en el Decreto Presidencial Nro 4.553, publicado en la Gaceta Oficial de la República Bolivariana de Venezuela Nro. 42.185 de fecha 6 de agosto de 2021, mediante el cual se re-expresará la unidad del sistema monetario de la República Bolivariana de Venezuela, el próximo 01 de octubre de 2021, será ajustada la información del Mercado de Renta Variable y Renta Fija en la Bolsa de Valores de Caracas, quedando representada en la unidad de cuenta de la nueva expresión del Bolívar.  <BR>  <BR>A tales efectos, visto que según informó la Superintendencia de las Instituciones del Sector Bancario, los días jueves 30 de septiembre y viernes 1 de octubre, las entidades financieras no prestarán los servicios regulares, de igual manera, durante esos días no habrá Sesión de Mercado en el sistema SIBE SMART, sin que ello implique una suspensión de las restantes actividades administrativas de esta bolsa de valores. En consecuencia, la negociación en el Sistema SIBE SMART, será reanudada a partir del lunes 4 de octubre de 2021.<BR><BR>En virtud de dicho proceso, notificamos que las operaciones que sean registradas en el Mercado los días 27, 28 y 29 de septiembre, respectivamente, serán liquidadas el día 29 de septiembre de 2021.<BR><BR>Caracas, 9 de septiembre de 2021<BR><BR>Atentamente,<BR>Gustavo Pulido Medina<BR>Presidente<BR>|
+NO|GALAXIA MEDICA, C.A.|La Bolsa de Valores de Caracas, en su carácter institucional por promover el Mercado de Valores de Renta Fija del sector primario, informa a los Miembros de la Bolsa de Valores de Caracas y al público en general, sobre las características y condiciones de la Colocación Primaria de Papeles Comerciales al Portador de GALAXIA MEDICA, C.A., a realizarse a través del Sistema Integrado Bursátil Electrónico (SIBE).<BR><BR>Los títulos para colocar son los correspondientes a la Serie I, de la Emisión 2020-V y 2020-VI, de Papeles Comerciales al Portador, emitidos por la Empresa Emisora GALAXIA MEDICA, C.A.<BR><BR>Tipo de Evento 	Colocación Primaria de Valores<BR>Valores para colocar 	Papeles Comerciales  <BR>Autorización SNV 	Providencia N° 160/2021 y 161/2021, de fecha 13/08/2021.<BR>Emisor	GALAXIA MEDICA, C.A.<BR>Emisión 	2020-V<BR>2020-VI<BR>Series para colocar		Serie I c/u.<BR>Monto de Emisión. 	Bs.  30.000.000.000,00 c/u.<BR>Monto por serie 	Bs.  30.000.000.000,00 c/u.<BR>Códigos ISIN	Em. 2020-V, Serie I: VEV00391XCZ5<BR>Em. 2020-VI, Serie I: VEV00391XDA6<BR>Código del Activo	PC<BR>Código de Símbolo en SIBE, Mercado Primario	Em. 2020-V, Serie I: GM051P<BR>Em. 2020-VI, Serie I: GM061P<BR>Fecha de Inicio de Sesión Especial 	09/09/2021<BR>Fecha de Vencimiento de la Serie.	09/12/2021<BR>Agentes de la Colocación 	Fivenca Casa de Bolsa, C.A.<BR>Forma de Colocación 	A mayores esfuerzos <BR>Precio de Colocación	78,13%<BR>Base de cálculo 	30/360<BR>Calificación de Riesgo	A1a Calificadores, Sociedad Calificadora de Riesgo Categoría A, Subcategoría A3<BR>Global Ratings, Sociedad Calificadora de Riesgo, C.A. Categoría A, Subcategoría A3<BR>Horario de Sesión Especial	De 9:30 a.m. a 1:00 p.m.<BR>|
